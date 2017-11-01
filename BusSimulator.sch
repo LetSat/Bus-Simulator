@@ -1,1 +1,238 @@
 EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:CubsatBUSS
+LIBS:Buss simulator-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MPM3620 U1
+U 1 1 59F69A08
+P 2850 5350
+F 0 "U1" H 2850 5350 60  0000 C CNN
+F 1 "MPM3620" H 2850 5500 60  0000 C CNN
+F 2 "" H 2850 5350 60  0001 C CNN
+F 3 "" H 2850 5350 60  0001 C CNN
+	1    2850 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDA #PWR1
+U 1 1 59F69AA4
+P 1850 5050
+F 0 "#PWR1" H 1850 4800 50  0001 C CNN
+F 1 "GNDA" H 1850 4900 50  0000 C CNN
+F 2 "" H 1850 5050 50  0001 C CNN
+F 3 "" H 1850 5050 50  0001 C CNN
+	1    1850 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 5450 2350 5750
+Wire Wire Line
+	2350 5600 2350 5600
+Connection ~ 2350 5600
+Wire Wire Line
+	3350 5450 3350 5750
+Wire Wire Line
+	3350 5600 3350 5600
+Connection ~ 3350 5600
+Wire Wire Line
+	2950 4800 3350 4800
+Wire Wire Line
+	3350 4800 3350 5150
+Wire Wire Line
+	3050 4800 3050 4800
+Connection ~ 3050 4800
+$Comp
+L GNDREF #PWR?
+U 1 1 59F69BFB
+P 3250 4800
+F 0 "#PWR?" H 3250 4550 50  0001 C CNN
+F 1 "GNDREF" H 3250 4650 50  0000 C CNN
+F 2 "" H 3250 4800 50  0001 C CNN
+F 3 "" H 3250 4800 50  0001 C CNN
+	1    3250 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L MPM3620 U?
+U 1 1 59F6A40E
+P 2700 2100
+F 0 "U?" H 2700 2100 60  0000 C CNN
+F 1 "MPM3620" H 2700 2250 60  0000 C CNN
+F 2 "" H 2700 2100 60  0001 C CNN
+F 3 "" H 2700 2100 60  0001 C CNN
+	1    2700 2100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2200 2300 2200 2650
+Wire Wire Line
+	2200 2650 2600 2650
+Wire Wire Line
+	2500 2650 2500 2650
+Connection ~ 2500 2650
+$Comp
+L GNDREF #PWR?
+U 1 1 59F6A60F
+P 2200 2650
+F 0 "#PWR?" H 2200 2400 50  0001 C CNN
+F 1 "GNDREF" H 2200 2500 50  0000 C CNN
+F 2 "" H 2200 2650 50  0001 C CNN
+F 3 "" H 2200 2650 50  0001 C CNN
+	1    2200 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 1400 2200 2050
+Wire Wire Line
+	2200 1850 2250 1850
+Connection ~ 2200 1850
+Wire Wire Line
+	3200 1700 3200 2000
+Wire Wire Line
+	3150 1850 3200 1850
+Connection ~ 3200 1850
+$Comp
+L R R1
+U 1 1 59F6ABD8
+P 3200 2600
+F 0 "R1" V 3280 2600 50  0000 C CNN
+F 1 "R" V 3200 2600 50  0000 C CNN
+F 2 "" V 3130 2600 50  0001 C CNN
+F 3 "" H 3200 2600 50  0001 C CNN
+	1    3200 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 59F6ACFA
+P 3600 2250
+F 0 "R2" V 3680 2250 50  0000 C CNN
+F 1 "R" V 3600 2250 50  0000 C CNN
+F 2 "" V 3530 2250 50  0001 C CNN
+F 3 "" H 3600 2250 50  0001 C CNN
+	1    3600 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 2100 3950 2100
+Wire Wire Line
+	3600 2400 3200 2400
+Wire Wire Line
+	3200 2300 3200 2450
+Connection ~ 3200 2400
+$Comp
+L +3.3V #PWR?
+U 1 1 59F6ADEF
+P 2200 1400
+F 0 "#PWR?" H 2200 1250 50  0001 C CNN
+F 1 "+3.3V" H 2200 1540 50  0000 C CNN
+F 2 "" H 2200 1400 50  0001 C CNN
+F 3 "" H 2200 1400 50  0001 C CNN
+	1    2200 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 59F6AE49
+P 3450 2750
+F 0 "#PWR?" H 3450 2600 50  0001 C CNN
+F 1 "+3.3V" H 3450 2890 50  0000 C CNN
+F 2 "" H 3450 2750 50  0001 C CNN
+F 3 "" H 3450 2750 50  0001 C CNN
+	1    3450 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 2750 3200 2850
+Wire Wire Line
+	3200 2850 3450 2850
+Wire Wire Line
+	3450 2850 3450 2750
+$Comp
+L GNDA #PWR?
+U 1 1 59F6AEAC
+P 3950 2100
+F 0 "#PWR?" H 3950 1850 50  0001 C CNN
+F 1 "GNDA" H 3950 1950 50  0000 C CNN
+F 2 "" H 3950 2100 50  0001 C CNN
+F 3 "" H 3950 2100 50  0001 C CNN
+	1    3950 2100
+	1    0    0    -1  
+$EndComp
+Connection ~ 3600 2100
+Wire Wire Line
+	2900 2650 2900 3100
+$Comp
+L R R?
+U 1 1 59F6AF4C
+P 2900 3250
+F 0 "R?" V 2980 3250 50  0000 C CNN
+F 1 "R" V 2900 3250 50  0000 C CNN
+F 2 "" V 2830 3250 50  0001 C CNN
+F 3 "" H 2900 3250 50  0001 C CNN
+	1    2900 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDA #PWR?
+U 1 1 59F6AF94
+P 2900 3400
+F 0 "#PWR?" H 2900 3150 50  0001 C CNN
+F 1 "GNDA" H 2900 3250 50  0000 C CNN
+F 2 "" H 2900 3400 50  0001 C CNN
+F 3 "" H 2900 3400 50  0001 C CNN
+	1    2900 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 2650 2700 4350
+Wire Wire Line
+	2700 4350 2850 4350
+Wire Wire Line
+	2850 4350 2850 4850
+$EndSCHEMATC

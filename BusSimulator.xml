@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\Prabodh\Documents\GitHub\LetsatBusSimulator\BusSimulator.sch</source>
+    <date>11/1/2017 8:50:53 PM</date>
+    <tool>Eeschema 4.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>BusSimulator.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>MPM3620</value>
+      <libsource lib="BusSimulator" part="MPM3620"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F6A40E</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>160k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F6ABD8</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>30.1k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F6ACFA</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>100k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F6AF4C</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>63.4k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59FA907E</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>22uF</value>
+      <footprint>CAP_1005</footprint>
+      <libsource lib="symbols" part="CAPH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59FA9155</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>CAP_1005</footprint>
+      <libsource lib="symbols" part="CAPH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59FA9430</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>MPM3620</value>
+      <libsource lib="BusSimulator" part="MPM3620"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59FAACB4</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>160k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59FAACC0</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>51k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59FAACC6</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>100k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59FAACD2</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>56k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59FAACF4</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>22uF</value>
+      <footprint>CAP_1005</footprint>
+      <libsource lib="symbols" part="CAPH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59FAAD03</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>10uF</value>
+      <footprint>CAP_1005</footprint>
+      <libsource lib="symbols" part="CAPH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59FAAD0F</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="symbols" part="CAPH">
+      <footprints>
+        <fp>CAP_1005</fp>
+        <fp>CAP_1005-M</fp>
+        <fp>CAP_1005-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAPH</field>
+        <field name="Footprint">CAP_1005</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="unspc"/>
+        <pin num="2" name="~" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="BusSimulator" part="MPM3620">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MPM3620</field>
+      </fields>
+      <pins>
+        <pin num="1" name="FB" type="input"/>
+        <pin num="2" name="VCC" type="input"/>
+        <pin num="3" name="AGND" type="input"/>
+        <pin num="4" name="SW" type="input"/>
+        <pin num="5" name="SW" type="input"/>
+        <pin num="6" name="SW" type="input"/>
+        <pin num="7" name="OUT" type="input"/>
+        <pin num="8" name="OUT" type="input"/>
+        <pin num="9" name="OUT" type="input"/>
+        <pin num="11" name="BST" type="input"/>
+        <pin num="12" name="PGND" type="input"/>
+        <pin num="13" name="PGND" type="input"/>
+        <pin num="14" name="PGND" type="input"/>
+        <pin num="16" name="IN" type="input"/>
+        <pin num="17" name="EN" type="input"/>
+        <pin num="18" name="AAM" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>D:\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="BusSimulator">
+      <uri>C:\Users\Prabodh\Documents\GitHub\LetsatBusSimulator\BusSimulator.lib</uri>
+    </library>
+    <library logical="symbols">
+      <uri>C:\Users\Prabodh\Documents\GitHub\LetsatBusSimulator\symbols.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GNDA">
+      <node ref="U2" pin="3"/>
+      <node ref="R8" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="2" name="Net-(C3-Pad2)">
+      <node ref="C3" pin="2"/>
+      <node ref="R7" pin="1"/>
+      <node ref="U2" pin="16"/>
+    </net>
+    <net code="3" name="+3V3">
+      <node ref="C4" pin="2"/>
+      <node ref="U2" pin="9"/>
+      <node ref="U2" pin="8"/>
+      <node ref="U2" pin="7"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="4" name="Net-(U2-Pad11)">
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="5" name="Net-(U2-Pad2)">
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="6" name="Net-(U2-Pad4)">
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="7" name="Net-(U2-Pad5)">
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="8" name="Net-(U2-Pad6)">
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="9" name="Net-(U2-Pad12)">
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="10" name="Net-(R8-Pad1)">
+      <node ref="U2" pin="18"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="11" name="Earth">
+      <node ref="C2" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="12" name="GNDREF">
+      <node ref="U1" pin="14"/>
+      <node ref="U1" pin="13"/>
+      <node ref="U2" pin="13"/>
+      <node ref="U2" pin="14"/>
+    </net>
+    <net code="13" name="Net-(R7-Pad2)">
+      <node ref="U2" pin="17"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="14" name="Net-(R5-Pad2)">
+      <node ref="U2" pin="1"/>
+      <node ref="R5" pin="2"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="15" name="Net-(C1-Pad2)">
+      <node ref="R3" pin="1"/>
+      <node ref="U1" pin="16"/>
+      <node ref="C1" pin="2"/>
+    </net>
+    <net code="16" name="+5V">
+      <node ref="R1" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U1" pin="7"/>
+      <node ref="U1" pin="8"/>
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="17" name="Net-(U1-Pad11)">
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="18" name="Net-(U1-Pad2)">
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="19" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="20" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="21" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="22" name="Net-(U1-Pad12)">
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="23" name="Net-(R4-Pad1)">
+      <node ref="R4" pin="1"/>
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="24" name="Net-(R3-Pad2)">
+      <node ref="U1" pin="17"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="25" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+  </nets>
+</export>

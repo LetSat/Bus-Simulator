@@ -1,4 +1,4 @@
-update=Wed 01 Nov 2017 12:52:45 AM EDT
+update=11/1/2017 10:11:07 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -62,3 +62,4 @@ LibName30=atmel
 LibName31=contrib
 LibName32=valves
 LibName33=BusSimulator
+LibName34=symbols

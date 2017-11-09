@@ -1,4 +1,4 @@
-update=11/1/2017 10:11:07 PM
+update=11/8/2017 11:42:08 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=../LetsatBusSimulator
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -63,3 +63,4 @@ LibName31=contrib
 LibName32=valves
 LibName33=BusSimulator
 LibName34=symbols
+LibName35=OSTTA024163

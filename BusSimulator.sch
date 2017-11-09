@@ -34,6 +34,7 @@ LIBS:valves
 LIBS:BusSimulator
 LIBS:symbols
 LIBS:OSTTA024163
+LIBS:MCP6H04-E
 LIBS:BusSimulator-cache
 EELAYER 25 0
 EELAYER END
@@ -1104,4 +1105,71 @@ F 3 "" H 4800 2050 50  0001 C CNN
 	1    4800 2050
 	1    0    0    -1  
 $EndComp
+$Comp
+L MCP6H04-E/SL U?
+U 1 1 5A0443F0
+P 5100 4250
+F 0 "U?" H 6000 4650 60  0000 C CNN
+F 1 "MCP6H04-E/SL" H 6000 4550 60  0000 C CNN
+F 2 "SOIC14_SL" H 6000 4490 60  0001 C CNN
+F 3 "" H 5100 4250 60  0000 C CNN
+	1    5100 4250
+	1    0    0    -1  
+$EndComp
+Text GLabel 6900 4250 2    60   Input ~ 0
+VoutA
+Text GLabel 6900 4350 2    60   Input ~ 0
+VoutB
+Text GLabel 6900 4450 2    60   Input ~ 0
+VoutC
+Text GLabel 6900 4550 2    60   Input ~ 0
+VoutD
+$Comp
+L +5V #PWR?
+U 1 1 5A04477C
+P 5100 5350
+F 0 "#PWR?" H 5100 5200 50  0001 C CNN
+F 1 "+5V" H 5100 5490 50  0000 C CNN
+F 2 "" H 5100 5350 50  0001 C CNN
+F 3 "" H 5100 5350 50  0001 C CNN
+	1    5100 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR?
+U 1 1 5A0447C8
+P 6900 4950
+F 0 "#PWR?" H 6900 4700 50  0001 C CNN
+F 1 "GNDREF" H 6900 4800 50  0000 C CNN
+F 2 "" H 6900 4950 50  0001 C CNN
+F 3 "" H 6900 4950 50  0001 C CNN
+	1    6900 4950
+	1    0    0    -1  
+$EndComp
+Text GLabel 4500 6150 2    60   Input ~ 0
++3.3V
+Text GLabel 5100 4350 0    60   Input ~ 0
++3.3V
+Text GLabel 5100 4250 0    60   Input ~ 0
+VoutA
+Text GLabel 5100 4450 0    60   Input ~ 0
+VoutB
+Text GLabel 4500 3150 2    60   Input ~ 0
++2.5V
+Text GLabel 5100 4550 0    60   Input ~ 0
++2.5V
+Text GLabel 5150 1750 2    60   Input ~ 0
++3V
+Text GLabel 5100 4750 0    60   Input ~ 0
++3V
+Text GLabel 5100 4650 0    60   Input ~ 0
+VoutC
+Text GLabel 5250 3100 0    60   Input ~ 0
+VoutA
+Text GLabel 5250 3000 0    60   Input ~ 0
+VoutB
+Text GLabel 5250 2900 0    60   Input ~ 0
+VOutC
+Text GLabel 5250 2800 0    60   Input ~ 0
+VoutD
 $EndSCHEMATC

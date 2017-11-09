@@ -1,4 +1,4 @@
-update=11/8/2017 11:42:08 PM
+update=11/9/2017 12:07:52 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -64,3 +64,4 @@ LibName32=valves
 LibName33=BusSimulator
 LibName34=symbols
 LibName35=OSTTA024163
+LibName36=exports/MCP6H04-E

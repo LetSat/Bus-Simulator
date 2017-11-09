@@ -1307,6 +1307,7 @@ Wire Wire Line
 	13100 4450 13300 4450
 Wire Wire Line
 	13100 4550 13100 4450
+<<<<<<< HEAD
 $Comp
 L LOGO G1
 U 1 1 5A04162F
@@ -1347,4 +1348,12 @@ Wire Wire Line
 	5500 1400 5950 1400
 Text GLabel 5950 1400 2    60   Input ~ 0
 VCC_12V
+=======
+Wire Wire Line
+	11200 4550 11050 4550
+Wire Wire Line
+	11050 4550 11050 4750
+Wire Wire Line
+	11050 4750 11200 4750
+>>>>>>> bb6bd5af075b6bdc1ebcf70eac8663b63f7b9a65
 $EndSCHEMATC

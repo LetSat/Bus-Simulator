@@ -490,4 +490,365 @@ F 3 "" H 2150 6400 50  0001 C CNN
 	1    2150 6400
 	1    0    0    -1  
 $EndComp
+$Comp
+L CONN_3-6318491-6 J1
+U 1 1 5A03F4E1
+P 4300 1150
+F 0 "J1" H 4650 1400 60  0000 C CNN
+F 1 "CONN_3-6318491-6" H 4650 1750 60  0000 C CNN
+F 2 "CONN_3-6318491-6" H 4700 -1110 60  0001 C CNN
+F 3 "" H 4300 1150 60  0000 C CNN
+	1    4300 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_3-6318491-6 J1
+U 2 1 5A03F592
+P 5800 1150
+F 0 "J1" H 6150 1400 60  0000 C CNN
+F 1 "CONN_3-6318491-6" H 5900 2450 60  0000 C CNN
+F 2 "CONN_3-6318491-6" H 6200 -1110 60  0001 C CNN
+F 3 "" H 5800 1150 60  0000 C CNN
+	2    5800 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_3-6318491-6 J1
+U 3 1 5A03F60D
+P 7300 1150
+F 0 "J1" H 7650 1400 60  0000 C CNN
+F 1 "CONN_3-6318491-6" H 7900 2600 60  0000 C CNN
+F 2 "CONN_3-6318491-6" H 7700 -1110 60  0001 C CNN
+F 3 "" H 7300 1150 60  0000 C CNN
+	3    7300 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_3-6318491-6 J1
+U 4 1 5A03F69E
+P 8750 1150
+F 0 "J1" H 9100 1400 60  0000 C CNN
+F 1 "CONN_3-6318491-6" H 9050 2150 60  0000 C CNN
+F 2 "CONN_3-6318491-6" H 9150 -1110 60  0001 C CNN
+F 3 "" H 8750 1150 60  0000 C CNN
+	4    8750 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_3-6318491-6 J1
+U 5 1 5A03F72F
+P 10300 1150
+F 0 "J1" H 10650 1400 60  0000 C CNN
+F 1 "CONN_3-6318491-6" H 10600 1600 60  0000 C CNN
+F 2 "CONN_3-6318491-6" H 10700 -1110 60  0001 C CNN
+F 3 "" H 10300 1150 60  0000 C CNN
+	5    10300 1150
+	1    0    0    -1  
+$EndComp
+Text GLabel 4300 1150 0    51   Input ~ 0
+GND
+Text GLabel 4300 1250 0    51   Input ~ 0
+GBE0_MDI3-
+Text GLabel 4300 1350 0    51   Input ~ 0
+GBE0_MDI3+
+Text GLabel 4300 1450 0    51   Input ~ 0
+GBE0_LINK100n
+Text GLabel 4300 1550 0    51   Input ~ 0
+GBE0_LINK1000n
+Text GLabel 4300 1650 0    51   Input ~ 0
+GBE0_MDI2-
+Text GLabel 4300 1750 0    51   Input ~ 0
+GBE0_MDI2+
+Text GLabel 4300 1950 0    51   Input ~ 0
+GBE0_MDI1-
+Text GLabel 4300 2050 0    51   Input ~ 0
+GBE0_MDI1+
+Text GLabel 4300 2150 0    51   Input ~ 0
+GND
+Text GLabel 4300 2250 0    51   Input ~ 0
+GBE0_MDI0-
+Text GLabel 4300 2350 0    51   Input ~ 0
+GBE0_MDI0+
+Text GLabel 4300 2450 0    51   Input ~ 0
+GBE0_CTREF(GND)
+Text GLabel 4300 2650 0    51   Input ~ 0
+SATA0_TX+
+Text GLabel 4300 2750 0    51   Input ~ 0
+SATA0_TX-
+Text GLabel 4300 2950 0    51   Input ~ 0
+SATA0_RX+
+Text GLabel 4300 3050 0    51   Input ~ 0
+SATA0_RX-
+Text GLabel 4300 3150 0    51   Input ~ 0
+GND
+Text GLabel 4300 3250 0    51   Input ~ 0
+USB_SSRX0-
+Text GLabel 4300 3350 0    51   Input ~ 0
+USB_SSRX0+
+Text GLabel 4300 3750 0    51   Input ~ 0
+BATLOWn
+Text GLabel 4300 3850 0    51   Input ~ 0
+SATA_ACTn
+Text GLabel 4300 3950 0    51   Input ~ 0
+AC/HDA_SYNC
+Text GLabel 4300 4150 0    51   Input ~ 0
+GND
+Text GLabel 4300 4250 0    51   Input ~ 0
+AC/HDA_BITCLK
+Text GLabel 4300 4350 0    51   Input ~ 0
+AC/HDA_SDOUT
+Text GLabel 4300 4950 0    51   Input ~ 0
+USB4-
+Text GLabel 4300 5050 0    51   Input ~ 0
+USB4+
+Text GLabel 4300 5150 0    51   Input ~ 0
+GND
+Text GLabel 4300 5250 0    51   Input ~ 0
+USB2-
+Text GLabel 4300 5350 0    51   Input ~ 0
+USB2+
+Text GLabel 4300 5450 0    51   Input ~ 0
+USB_2_3_OCn
+Text GLabel 5800 1150 0    51   Input ~ 0
+USB0-
+Text GLabel 5800 1250 0    51   Input ~ 0
+USB0+
+Text GLabel 5800 1350 0    51   Input ~ 0
+VCC_RTC
+Text GLabel 5800 1550 0    51   Input ~ 0
+EXCD0_CPPEn
+Text GLabel 5800 1750 0    51   Input ~ 0
+GND
+Text GLabel 5800 2050 0    51   Input ~ 0
+GPI0
+Text GLabel 5800 2350 0    51   Input ~ 0
+GND
+Text GLabel 5800 2650 0    51   Input ~ 0
+GND
+Text GLabel 5800 2950 0    51   Input ~ 0
+GPI1
+Text GLabel 5800 3050 0    51   Input ~ 0
+PCIE_TX1+
+Text GLabel 5800 3150 0    51   Input ~ 0
+PCIE_TX1-
+Text GLabel 5800 3250 0    51   Input ~ 0
+GND
+Text GLabel 5800 3350 0    51   Input ~ 0
+GPI2
+Text GLabel 5800 3450 0    51   Input ~ 0
+PCIE_TX0+
+Text GLabel 5800 3550 0    51   Input ~ 0
+PCIE_TX0-
+Text GLabel 5800 3650 0    51   Input ~ 0
+GND
+Text GLabel 5800 3750 0    51   Input ~ 0
+LVDS_A0+
+Text GLabel 5800 3850 0    51   Input ~ 0
+LVDS_A0-
+Text GLabel 5800 3950 0    51   Input ~ 0
+LVDS_A1+
+Text GLabel 5800 4050 0    51   Input ~ 0
+LVDS_A1-
+Text GLabel 5800 4150 0    51   Input ~ 0
+LVDS_A2+
+Text GLabel 5800 4250 0    51   Input ~ 0
+LVDS_A2-
+Text GLabel 5800 4350 0    51   Input ~ 0
+LVD_VDD_EN
+Text GLabel 5800 4450 0    51   Input ~ 0
+LVDS_A3+
+Text GLabel 5800 4550 0    51   Input ~ 0
+LVDS_A3-
+Text GLabel 5800 4650 0    51   Input ~ 0
+GND
+Text GLabel 5800 4750 0    51   Input ~ 0
+LVDS_A_CK+
+Text GLabel 5800 4850 0    51   Input ~ 0
+LVDS_A_CK-
+Text GLabel 5800 4950 0    51   Input ~ 0
+LVDS_I2C_CK
+Text GLabel 5800 5050 0    51   Input ~ 0
+LDVS_I2C_DAT
+Text GLabel 5800 5150 0    51   Input ~ 0
+GPI3
+Text GLabel 5800 5350 0    51   Input ~ 0
+eDP_HPD
+Text GLabel 5800 5450 0    51   Input ~ 0
+PCIE_CLK_REF+
+Text GLabel 7300 1150 0    51   Input ~ 0
+PCIE_CLK_REF-
+Text GLabel 7300 1250 0    51   Input ~ 0
+GND
+Text GLabel 7300 1350 0    51   Input ~ 0
+SPI_POWER
+Text GLabel 7300 1450 0    51   Input ~ 0
+SPI_MISO
+Text GLabel 7300 1550 0    51   Input ~ 0
+GPO0
+Text GLabel 7300 1650 0    51   Input ~ 0
+SPI_CLK
+Text GLabel 7300 1750 0    51   Input ~ 0
+SPI_MOSI
+Text GLabel 7300 1950 0    51   Input ~ 0
+TYPE10n(GND)
+Text GLabel 7300 2050 0    51   Input ~ 0
+SER0_TX
+Text GLabel 7300 2150 0    51   Input ~ 0
+SER0_RX
+Text GLabel 7300 2250 0    51   Input ~ 0
+GND
+Text GLabel 7300 2550 0    51   Input ~ 0
+LIDn
+Text GLabel 7300 2650 0    51   Input ~ 0
+VCC_12V
+Text GLabel 7300 2750 0    51   Input ~ 0
+VCC_12V
+Text GLabel 7300 2850 0    51   Input ~ 0
+VCC_12V
+Text GLabel 7300 2950 0    51   Input ~ 0
+VCC_12V
+Text GLabel 7300 3050 0    51   Input ~ 0
+VCC_12V
+Text GLabel 7300 3150 0    51   Input ~ 0
+VCC_12V
+Text GLabel 7300 3250 0    51   Input ~ 0
+GND
+Text GLabel 7300 3350 0    51   Input ~ 0
+GND
+Text GLabel 7300 3450 0    51   Input ~ 0
+GBE0_ACTn
+Text GLabel 7300 4350 0    51   Input ~ 0
+GND
+Text GLabel 7300 4450 0    51   Input ~ 0
+PWRBTNn
+Text GLabel 7300 5350 0    51   Input ~ 0
+GND
+Text GLabel 7300 5450 0    51   Input ~ 0
+USB_SSTX0-
+Text GLabel 8750 1150 0    51   Input ~ 0
+USB_SSTX0+
+Text GLabel 8750 1250 0    51   Input ~ 0
+PWR_OK
+Text GLabel 8750 1850 0    51   Input ~ 0
+AC/HDA_SDIN0
+Text GLabel 8750 1950 0    51   Input ~ 0
+GND
+Text GLabel 8750 2150 0    51   Input ~ 0
+I2C_CK
+Text GLabel 8750 2250 0    51   Input ~ 0
+I2C_DAT
+Text GLabel 8750 2350 0    51   Input ~ 0
+THRMn
+Text GLabel 8750 2650 0    51   Input ~ 0
+USB_4_5_OCn
+Text GLabel 8750 2750 0    51   Input ~ 0
+USB5-
+Text GLabel 8750 2850 0    51   Input ~ 0
+USB5+
+Text GLabel 8750 2950 0    51   Input ~ 0
+GND
+Text GLabel 8750 3050 0    51   Input ~ 0
+USB3-
+Text GLabel 8750 3150 0    51   Input ~ 0
+USB3+
+Text GLabel 8750 3250 0    51   Input ~ 0
+USB_0_1_OCn
+Text GLabel 8750 3350 0    51   Input ~ 0
+USB1-
+Text GLabel 8750 3450 0    51   Input ~ 0
+USB1+
+Text GLabel 8750 3650 0    51   Input ~ 0
+EXCD1_CPPEn
+Text GLabel 8750 3750 0    51   Input ~ 0
+SYS_RESETn
+Text GLabel 8750 3850 0    51   Input ~ 0
+CB_RESETn
+Text GLabel 8750 3950 0    51   Input ~ 0
+GND
+Text GLabel 8750 4250 0    51   Input ~ 0
+GPO1
+Text GLabel 8750 4550 0    51   Input ~ 0
+GPO2
+Text GLabel 8750 4850 0    51   Input ~ 0
+GND
+Text GLabel 8750 5150 0    51   Input ~ 0
+GPO3
+Text GLabel 8750 5250 0    51   Input ~ 0
+PCIE_RX1+
+Text GLabel 8750 5350 0    51   Input ~ 0
+PCIE_RX1-
+Text GLabel 8750 5450 0    51   Input ~ 0
+WAKE0n
+Text GLabel 10300 1150 0    51   Input ~ 0
+WAKE1n
+Text GLabel 10300 1250 0    51   Input ~ 0
+PCIE_RX0+
+Text GLabel 10300 1350 0    51   Input ~ 0
+PCIE_RX0-
+Text GLabel 10300 1450 0    51   Input ~ 0
+GND
+Text GLabel 10300 1550 0    51   Input ~ 0
+DDIO_PAIR0+
+Text GLabel 10300 1650 0    51   Input ~ 0
+DDIO_PAIR0-
+Text GLabel 10300 1750 0    51   Input ~ 0
+DDIO_PAIR1+
+Text GLabel 10300 1850 0    51   Input ~ 0
+DDIO_PAIR1-
+Text GLabel 10300 1950 0    51   Input ~ 0
+DDIO_PAIR2+
+Text GLabel 10300 2050 0    51   Input ~ 0
+DDIO_PAIR2-
+Text GLabel 10300 2350 0    51   Input ~ 0
+LVDS_BKLT_EN
+Text GLabel 10300 2450 0    51   Input ~ 0
+GND
+Text GLabel 10300 2550 0    51   Input ~ 0
+DDIO_PAIR3+
+Text GLabel 10300 2650 0    51   Input ~ 0
+DDIO_PAIR3-
+Text GLabel 10300 2750 0    51   Input ~ 0
+LVDS_BKLT_CTRL
+Text GLabel 10300 2850 0    51   Input ~ 0
+VCC_5V_SBY
+Text GLabel 10300 2950 0    51   Input ~ 0
+VCC_5V_SBY
+Text GLabel 10300 3050 0    51   Input ~ 0
+VCC_5V_SBY
+Text GLabel 10300 3150 0    51   Input ~ 0
+VCC_5V_SBY
+Text GLabel 10300 3350 0    51   Input ~ 0
+DDIO_HPD
+Text GLabel 10300 3450 0    51   Input ~ 0
+GND
+Text GLabel 10300 3950 0    51   Input ~ 0
+DDIO_DDC_AUX_SEL
+Text GLabel 10300 4150 0    51   Input ~ 0
+SPI_CSn
+Text GLabel 10300 4250 0    51   Input ~ 0
+DDIO_CTRLCLK_AUX+
+Text GLabel 10300 4350 0    51   Input ~ 0
+DDIO_CTRLDATA_AUX-
+Text GLabel 10300 4450 0    51   Input ~ 0
+GND
+Text GLabel 10300 4550 0    51   Input ~ 0
+FAN_PWMOUTn
+Text GLabel 10300 4650 0    51   Input ~ 0
+FAN_TACHINn
+Text GLabel 10300 4750 0    51   Input ~ 0
+SLEEPn
+Text GLabel 10300 4850 0    51   Input ~ 0
+VCC_12V
+Text GLabel 10300 4950 0    51   Input ~ 0
+VCC_12V
+Text GLabel 10300 5050 0    51   Input ~ 0
+VCC_12V
+Text GLabel 10300 5150 0    51   Input ~ 0
+VCC_12V
+Text GLabel 10300 5250 0    51   Input ~ 0
+VCC_12V
+Text GLabel 10300 5350 0    51   Input ~ 0
+VCC_12V
+Text GLabel 10300 5450 0    51   Input ~ 0
+GND
 $EndSCHEMATC

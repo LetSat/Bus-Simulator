@@ -421,12 +421,12 @@ $EndComp
 $Comp
 L CONN_3-6318491-6 J1
 U 4 1 5A03F69E
-P 19300 7900
-F 0 "J1" H 19650 8150 60  0000 C CNN
-F 1 "CONN_3-6318491-6" H 19600 8900 60  0000 C CNN
-F 2 "CONN_3-6318491-6" H 19700 5640 60  0001 C CNN
-F 3 "" H 19300 7900 60  0000 C CNN
-	4    19300 7900
+P 19350 7900
+F 0 "J1" H 19700 8150 60  0000 C CNN
+F 1 "CONN_3-6318491-6" H 19650 8900 60  0000 C CNN
+F 2 "CONN_3-6318491-6" H 19750 5640 60  0001 C CNN
+F 3 "" H 19350 7900 60  0000 C CNN
+	4    19350 7900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -441,7 +441,7 @@ F 3 "" H 20850 7900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 14850 7900 0    51   Input ~ 0
-GND
+mCOM_GND
 Text GLabel 14850 8000 0    51   Input ~ 0
 GBE0_MDI3-
 Text GLabel 14850 8100 0    51   Input ~ 0
@@ -459,7 +459,7 @@ GBE0_MDI1-
 Text GLabel 14850 8800 0    51   Input ~ 0
 GBE0_MDI1+
 Text GLabel 14850 8900 0    51   Input ~ 0
-GND
+mCOM_GND
 Text GLabel 14850 9000 0    51   Input ~ 0
 GBE0_MDI0-
 Text GLabel 14850 9100 0    51   Input ~ 0
@@ -475,7 +475,7 @@ SATA0_RX+
 Text GLabel 14850 9800 0    51   Input ~ 0
 SATA0_RX-
 Text GLabel 14850 9900 0    51   Input ~ 0
-GND
+mCOM_GND
 Text GLabel 14850 10000 0    51   Input ~ 0
 USB_SSRX0-
 Text GLabel 14850 10100 0    51   Input ~ 0
@@ -487,7 +487,7 @@ SATA_ACTn
 Text GLabel 14850 10700 0    51   Input ~ 0
 AC/HDA_SYNC
 Text GLabel 14850 10900 0    51   Input ~ 0
-GND
+mCOM_GND
 Text GLabel 14850 11000 0    51   Input ~ 0
 AC/HDA_BITCLK
 Text GLabel 14850 11100 0    51   Input ~ 0
@@ -497,7 +497,7 @@ USB4-
 Text GLabel 14850 11800 0    51   Input ~ 0
 USB4+
 Text GLabel 14850 11900 0    51   Input ~ 0
-GND
+mCOM_GND
 Text GLabel 14850 12000 0    51   Input ~ 0
 USB2-
 Text GLabel 14850 12100 0    51   Input ~ 0
@@ -513,13 +513,13 @@ VCC_RTC
 Text GLabel 16350 8300 0    51   Input ~ 0
 EXCD0_CPPEn
 Text GLabel 16350 8500 0    51   Input ~ 0
-GND
+mCOM_GND
 Text GLabel 16350 8800 0    51   Input ~ 0
 GPI0
 Text GLabel 16350 9100 0    51   Input ~ 0
-GND
+mCOM_GND
 Text GLabel 16350 9400 0    51   Input ~ 0
-GND
+mCOM_GND
 Text GLabel 16350 9700 0    51   Input ~ 0
 GPI1
 Text GLabel 16350 9800 0    51   Input ~ 0
@@ -527,7 +527,7 @@ PCIE_TX1+
 Text GLabel 16350 9900 0    51   Input ~ 0
 PCIE_TX1-
 Text GLabel 16350 10000 0    51   Input ~ 0
-GND
+mCOM_GND
 Text GLabel 16350 10100 0    51   Input ~ 0
 GPI2
 Text GLabel 16350 10200 0    51   Input ~ 0
@@ -535,7 +535,7 @@ PCIE_TX0+
 Text GLabel 16350 10300 0    51   Input ~ 0
 PCIE_TX0-
 Text GLabel 16350 10400 0    51   Input ~ 0
-GND
+mCOM_GND
 Text GLabel 16350 10500 0    51   Input ~ 0
 LVDS_A0+
 Text GLabel 16350 10600 0    51   Input ~ 0
@@ -555,7 +555,7 @@ LVDS_A3+
 Text GLabel 16350 11300 0    51   Input ~ 0
 LVDS_A3-
 Text GLabel 16350 11400 0    51   Input ~ 0
-GND
+mCOM_GND
 Text GLabel 16350 11500 0    51   Input ~ 0
 LVDS_A_CK+
 Text GLabel 16350 11600 0    51   Input ~ 0
@@ -573,7 +573,7 @@ PCIE_CLK_REF+
 Text GLabel 17850 7900 0    51   Input ~ 0
 PCIE_CLK_REF-
 Text GLabel 17850 8000 0    51   Input ~ 0
-GND
+mCOM_GND
 Text GLabel 17850 8100 0    51   Input ~ 0
 SPI_POWER
 Text GLabel 17850 8200 0    51   Input ~ 0
@@ -591,88 +591,88 @@ SER0_TX
 Text GLabel 17850 8900 0    51   Input ~ 0
 SER0_RX
 Text GLabel 17850 9000 0    51   Input ~ 0
-GND
+mCOM_GND
 Text GLabel 17850 9300 0    51   Input ~ 0
 LIDn
 Text GLabel 17850 9400 0    51   Input ~ 0
-VCC_12V
+mCOM_12V
 Text GLabel 17850 9500 0    51   Input ~ 0
-VCC_12V
+mCOM_12V
 Text GLabel 17850 9600 0    51   Input ~ 0
-VCC_12V
+mCOM_12V
 Text GLabel 17850 9700 0    51   Input ~ 0
-VCC_12V
+mCOM_12V
 Text GLabel 17850 9800 0    51   Input ~ 0
-VCC_12V
+mCOM_12V
 Text GLabel 17850 9900 0    51   Input ~ 0
-VCC_12V
+mCOM_12V
 Text GLabel 17850 10000 0    51   Input ~ 0
-GND
+mCOM_GND
 Text GLabel 17850 10100 0    51   Input ~ 0
-GND
+mCOM_GND
 Text GLabel 17850 10200 0    51   Input ~ 0
 GBE0_ACTn
 Text GLabel 17850 11100 0    51   Input ~ 0
-GND
+mCOM_GND
 Text GLabel 17850 11200 0    51   Input ~ 0
 PWRBTNn
 Text GLabel 17850 12100 0    51   Input ~ 0
-GND
+mCOM_GND
 Text GLabel 17850 12200 0    51   Input ~ 0
 USB_SSTX0-
-Text GLabel 19300 7900 0    51   Input ~ 0
+Text GLabel 19350 7900 0    51   Input ~ 0
 USB_SSTX0+
-Text GLabel 19300 8000 0    51   Input ~ 0
+Text GLabel 19350 8000 0    51   Input ~ 0
 PWR_OK
-Text GLabel 19300 8600 0    51   Input ~ 0
+Text GLabel 19350 8600 0    51   Input ~ 0
 AC/HDA_SDIN0
-Text GLabel 19300 8700 0    51   Input ~ 0
-GND
-Text GLabel 19300 8900 0    51   Input ~ 0
+Text GLabel 19350 8700 0    51   Input ~ 0
+mCOM_GND
+Text GLabel 19350 8900 0    51   Input ~ 0
 I2C_CK
-Text GLabel 19300 9000 0    51   Input ~ 0
+Text GLabel 19350 9000 0    51   Input ~ 0
 I2C_DAT
-Text GLabel 19300 9100 0    51   Input ~ 0
+Text GLabel 19350 9100 0    51   Input ~ 0
 THRMn
-Text GLabel 19300 9400 0    51   Input ~ 0
+Text GLabel 19350 9400 0    51   Input ~ 0
 USB_4_5_OCn
-Text GLabel 19300 9500 0    51   Input ~ 0
+Text GLabel 19350 9500 0    51   Input ~ 0
 USB5-
-Text GLabel 19300 9600 0    51   Input ~ 0
+Text GLabel 19350 9600 0    51   Input ~ 0
 USB5+
-Text GLabel 19300 9700 0    51   Input ~ 0
-GND
-Text GLabel 19300 9800 0    51   Input ~ 0
+Text GLabel 19350 9700 0    51   Input ~ 0
+mCOM_GND
+Text GLabel 19350 9800 0    51   Input ~ 0
 USB3-
-Text GLabel 19300 9900 0    51   Input ~ 0
+Text GLabel 19350 9900 0    51   Input ~ 0
 USB3+
-Text GLabel 19300 10000 0    51   Input ~ 0
+Text GLabel 19350 10000 0    51   Input ~ 0
 USB_0_1_OCn
-Text GLabel 19300 10100 0    51   Input ~ 0
+Text GLabel 19350 10100 0    51   Input ~ 0
 USB1-
-Text GLabel 19300 10200 0    51   Input ~ 0
+Text GLabel 19350 10200 0    51   Input ~ 0
 USB1+
-Text GLabel 19300 10400 0    51   Input ~ 0
+Text GLabel 19350 10400 0    51   Input ~ 0
 EXCD1_CPPEn
-Text GLabel 19300 10500 0    51   Input ~ 0
+Text GLabel 19350 10500 0    51   Input ~ 0
 SYS_RESETn
-Text GLabel 19300 10600 0    51   Input ~ 0
+Text GLabel 19350 10600 0    51   Input ~ 0
 CB_RESETn
-Text GLabel 19300 10700 0    51   Input ~ 0
-GND
-Text GLabel 19300 11000 0    51   Input ~ 0
+Text GLabel 19350 10700 0    51   Input ~ 0
+mCOM_GND
+Text GLabel 19350 11000 0    51   Input ~ 0
 GPO1
-Text GLabel 19300 11300 0    51   Input ~ 0
+Text GLabel 19350 11300 0    51   Input ~ 0
 GPO2
-Text GLabel 19300 11600 0    51   Input ~ 0
-GND
-Text GLabel 19300 11900 0    51   Input ~ 0
+Text GLabel 19350 11600 0    51   Input ~ 0
+mCOM_GND
+Text GLabel 19350 11900 0    51   Input ~ 0
 GPO3
-Text GLabel 19300 12000 0    51   Input ~ 0
+Text GLabel 19350 12000 0    51   Input ~ 0
 PCIE_RX1+
-Text GLabel 19300 12100 0    51   Input ~ 0
+Text GLabel 19350 12100 0    51   Input ~ 0
 PCIE_RX1-
-Text GLabel 19300 12200 0    51   Input ~ 0
+Text GLabel 19350 12200 0    51   Input ~ 0
 WAKE0n
 Text GLabel 20850 7900 0    51   Input ~ 0
 WAKE1n
@@ -681,7 +681,7 @@ PCIE_RX0+
 Text GLabel 20850 8100 0    51   Input ~ 0
 PCIE_RX0-
 Text GLabel 20850 8200 0    51   Input ~ 0
-GND
+mCOM_GND
 Text GLabel 20850 8300 0    51   Input ~ 0
 DDIO_PAIR0+
 Text GLabel 20850 8400 0    51   Input ~ 0
@@ -697,7 +697,7 @@ DDIO_PAIR2-
 Text GLabel 20850 9100 0    51   Input ~ 0
 LVDS_BKLT_EN
 Text GLabel 20850 9200 0    51   Input ~ 0
-GND
+mCOM_GND
 Text GLabel 20850 9300 0    51   Input ~ 0
 DDIO_PAIR3+
 Text GLabel 20850 9400 0    51   Input ~ 0
@@ -705,17 +705,17 @@ DDIO_PAIR3-
 Text GLabel 20850 9500 0    51   Input ~ 0
 LVDS_BKLT_CTRL
 Text GLabel 20850 9600 0    51   Input ~ 0
-VCC_5V_SBY
+mCOM_5V_SBY
 Text GLabel 20850 9700 0    51   Input ~ 0
-VCC_5V_SBY
+mCOM_5V_SBY
 Text GLabel 20850 9800 0    51   Input ~ 0
-VCC_5V_SBY
+mCOM_5V_SBY
 Text GLabel 20850 9900 0    51   Input ~ 0
-VCC_5V_SBY
+mCOM_5V_SBY
 Text GLabel 20850 10100 0    51   Input ~ 0
 DDIO_HPD
 Text GLabel 20850 10200 0    51   Input ~ 0
-GND
+mCOM_GND
 Text GLabel 20850 10700 0    51   Input ~ 0
 DDIO_DDC_AUX_SEL
 Text GLabel 20850 10900 0    51   Input ~ 0
@@ -725,7 +725,7 @@ DDIO_CTRLCLK_AUX+
 Text GLabel 20850 11100 0    51   Input ~ 0
 DDIO_CTRLDATA_AUX-
 Text GLabel 20850 11200 0    51   Input ~ 0
-GND
+mCOM_GND
 Text GLabel 20850 11300 0    51   Input ~ 0
 FAN_PWMOUTn
 Text GLabel 20850 11400 0    51   Input ~ 0
@@ -733,19 +733,19 @@ FAN_TACHINn
 Text GLabel 20850 11500 0    51   Input ~ 0
 SLEEPn
 Text GLabel 20850 11600 0    51   Input ~ 0
-VCC_12V
+mCOM_12V
 Text GLabel 20850 11700 0    51   Input ~ 0
-VCC_12V
+mCOM_12V
 Text GLabel 20850 11800 0    51   Input ~ 0
-VCC_12V
+mCOM_12V
 Text GLabel 20850 11900 0    51   Input ~ 0
-VCC_12V
+mCOM_12V
 Text GLabel 20850 12000 0    51   Input ~ 0
-VCC_12V
+mCOM_12V
 Text GLabel 20850 12100 0    51   Input ~ 0
-VCC_12V
+mCOM_12V
 Text GLabel 20850 12200 0    51   Input ~ 0
-GND
+mCOM_GND
 $Comp
 L +12V #PWR017
 U 1 1 5A040DA3

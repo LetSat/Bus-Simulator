@@ -1,4 +1,4 @@
-update=11/9/2017 12:07:52 AM
+update=11/9/2017 12:25:49 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -65,3 +65,4 @@ LibName33=BusSimulator
 LibName34=symbols
 LibName35=OSTTA024163
 LibName36=exports/MCP6H04-E
+LibName37=freetronics_schematic

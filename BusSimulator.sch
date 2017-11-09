@@ -35,6 +35,7 @@ LIBS:BusSimulator
 LIBS:symbols
 LIBS:OSTTA024163
 LIBS:MCP6H04-E
+LIBS:freetronics_schematic
 LIBS:BusSimulator-cache
 EELAYER 25 0
 EELAYER END
@@ -387,363 +388,363 @@ $EndComp
 $Comp
 L CONN_3-6318491-6 J1
 U 1 1 5A03F4E1
-P 11500 5750
-F 0 "J1" H 11850 6000 60  0000 C CNN
-F 1 "CONN_3-6318491-6" H 11850 6350 60  0000 C CNN
-F 2 "CONN_3-6318491-6" H 11900 3490 60  0001 C CNN
-F 3 "" H 11500 5750 60  0000 C CNN
-	1    11500 5750
+P 14850 7900
+F 0 "J1" H 15200 8150 60  0000 C CNN
+F 1 "CONN_3-6318491-6" H 15200 8500 60  0000 C CNN
+F 2 "CONN_3-6318491-6" H 15250 5640 60  0001 C CNN
+F 3 "" H 14850 7900 60  0000 C CNN
+	1    14850 7900
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_3-6318491-6 J1
 U 2 1 5A03F592
-P 13000 5750
-F 0 "J1" H 13350 6000 60  0000 C CNN
-F 1 "CONN_3-6318491-6" H 13100 7050 60  0000 C CNN
-F 2 "CONN_3-6318491-6" H 13400 3490 60  0001 C CNN
-F 3 "" H 13000 5750 60  0000 C CNN
-	2    13000 5750
+P 16350 7900
+F 0 "J1" H 16700 8150 60  0000 C CNN
+F 1 "CONN_3-6318491-6" H 16450 9200 60  0000 C CNN
+F 2 "CONN_3-6318491-6" H 16750 5640 60  0001 C CNN
+F 3 "" H 16350 7900 60  0000 C CNN
+	2    16350 7900
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_3-6318491-6 J1
 U 3 1 5A03F60D
-P 14500 5750
-F 0 "J1" H 14850 6000 60  0000 C CNN
-F 1 "CONN_3-6318491-6" H 15100 7200 60  0000 C CNN
-F 2 "CONN_3-6318491-6" H 14900 3490 60  0001 C CNN
-F 3 "" H 14500 5750 60  0000 C CNN
-	3    14500 5750
+P 17850 7900
+F 0 "J1" H 18200 8150 60  0000 C CNN
+F 1 "CONN_3-6318491-6" H 18450 9350 60  0000 C CNN
+F 2 "CONN_3-6318491-6" H 18250 5640 60  0001 C CNN
+F 3 "" H 17850 7900 60  0000 C CNN
+	3    17850 7900
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_3-6318491-6 J1
 U 4 1 5A03F69E
-P 15950 5750
-F 0 "J1" H 16300 6000 60  0000 C CNN
-F 1 "CONN_3-6318491-6" H 16250 6750 60  0000 C CNN
-F 2 "CONN_3-6318491-6" H 16350 3490 60  0001 C CNN
-F 3 "" H 15950 5750 60  0000 C CNN
-	4    15950 5750
+P 19300 7900
+F 0 "J1" H 19650 8150 60  0000 C CNN
+F 1 "CONN_3-6318491-6" H 19600 8900 60  0000 C CNN
+F 2 "CONN_3-6318491-6" H 19700 5640 60  0001 C CNN
+F 3 "" H 19300 7900 60  0000 C CNN
+	4    19300 7900
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_3-6318491-6 J1
 U 5 1 5A03F72F
-P 17500 5750
-F 0 "J1" H 17850 6000 60  0000 C CNN
-F 1 "CONN_3-6318491-6" H 17800 6200 60  0000 C CNN
-F 2 "CONN_3-6318491-6" H 17900 3490 60  0001 C CNN
-F 3 "" H 17500 5750 60  0000 C CNN
-	5    17500 5750
+P 20850 7900
+F 0 "J1" H 21200 8150 60  0000 C CNN
+F 1 "CONN_3-6318491-6" H 21150 8350 60  0000 C CNN
+F 2 "CONN_3-6318491-6" H 21250 5640 60  0001 C CNN
+F 3 "" H 20850 7900 60  0000 C CNN
+	5    20850 7900
 	1    0    0    -1  
 $EndComp
-Text GLabel 11500 5750 0    51   Input ~ 0
+Text GLabel 14850 7900 0    51   Input ~ 0
 GND
-Text GLabel 11500 5850 0    51   Input ~ 0
+Text GLabel 14850 8000 0    51   Input ~ 0
 GBE0_MDI3-
-Text GLabel 11500 5950 0    51   Input ~ 0
+Text GLabel 14850 8100 0    51   Input ~ 0
 GBE0_MDI3+
-Text GLabel 11500 6050 0    51   Input ~ 0
+Text GLabel 14850 8200 0    51   Input ~ 0
 GBE0_LINK100n
-Text GLabel 11500 6150 0    51   Input ~ 0
+Text GLabel 14850 8300 0    51   Input ~ 0
 GBE0_LINK1000n
-Text GLabel 11500 6250 0    51   Input ~ 0
+Text GLabel 14850 8400 0    51   Input ~ 0
 GBE0_MDI2-
-Text GLabel 11500 6350 0    51   Input ~ 0
+Text GLabel 14850 8500 0    51   Input ~ 0
 GBE0_MDI2+
-Text GLabel 11500 6550 0    51   Input ~ 0
+Text GLabel 14850 8700 0    51   Input ~ 0
 GBE0_MDI1-
-Text GLabel 11500 6650 0    51   Input ~ 0
+Text GLabel 14850 8800 0    51   Input ~ 0
 GBE0_MDI1+
-Text GLabel 11500 6750 0    51   Input ~ 0
+Text GLabel 14850 8900 0    51   Input ~ 0
 GND
-Text GLabel 11500 6850 0    51   Input ~ 0
+Text GLabel 14850 9000 0    51   Input ~ 0
 GBE0_MDI0-
-Text GLabel 11500 6950 0    51   Input ~ 0
+Text GLabel 14850 9100 0    51   Input ~ 0
 GBE0_MDI0+
-Text GLabel 11500 7050 0    51   Input ~ 0
+Text GLabel 14850 9200 0    51   Input ~ 0
 GBE0_CTREF(GND)
-Text GLabel 11500 7250 0    51   Input ~ 0
+Text GLabel 14850 9400 0    51   Input ~ 0
 SATA0_TX+
-Text GLabel 11500 7350 0    51   Input ~ 0
+Text GLabel 14850 9500 0    51   Input ~ 0
 SATA0_TX-
-Text GLabel 11500 7550 0    51   Input ~ 0
+Text GLabel 14850 9700 0    51   Input ~ 0
 SATA0_RX+
-Text GLabel 11500 7650 0    51   Input ~ 0
+Text GLabel 14850 9800 0    51   Input ~ 0
 SATA0_RX-
-Text GLabel 11500 7750 0    51   Input ~ 0
+Text GLabel 14850 9900 0    51   Input ~ 0
 GND
-Text GLabel 11500 7850 0    51   Input ~ 0
+Text GLabel 14850 10000 0    51   Input ~ 0
 USB_SSRX0-
-Text GLabel 11500 7950 0    51   Input ~ 0
+Text GLabel 14850 10100 0    51   Input ~ 0
 USB_SSRX0+
-Text GLabel 11500 8350 0    51   Input ~ 0
+Text GLabel 14850 10500 0    51   Input ~ 0
 BATLOWn
-Text GLabel 11500 8450 0    51   Input ~ 0
+Text GLabel 14850 10600 0    51   Input ~ 0
 SATA_ACTn
-Text GLabel 11500 8550 0    51   Input ~ 0
+Text GLabel 14850 10700 0    51   Input ~ 0
 AC/HDA_SYNC
-Text GLabel 11500 8750 0    51   Input ~ 0
+Text GLabel 14850 10900 0    51   Input ~ 0
 GND
-Text GLabel 11500 8850 0    51   Input ~ 0
+Text GLabel 14850 11000 0    51   Input ~ 0
 AC/HDA_BITCLK
-Text GLabel 11500 8950 0    51   Input ~ 0
+Text GLabel 14850 11100 0    51   Input ~ 0
 AC/HDA_SDOUT
-Text GLabel 11500 9550 0    51   Input ~ 0
+Text GLabel 14850 11700 0    51   Input ~ 0
 USB4-
-Text GLabel 11500 9650 0    51   Input ~ 0
+Text GLabel 14850 11800 0    51   Input ~ 0
 USB4+
-Text GLabel 11500 9750 0    51   Input ~ 0
+Text GLabel 14850 11900 0    51   Input ~ 0
 GND
-Text GLabel 11500 9850 0    51   Input ~ 0
+Text GLabel 14850 12000 0    51   Input ~ 0
 USB2-
-Text GLabel 11500 9950 0    51   Input ~ 0
+Text GLabel 14850 12100 0    51   Input ~ 0
 USB2+
-Text GLabel 11500 10050 0    51   Input ~ 0
+Text GLabel 14850 12200 0    51   Input ~ 0
 USB_2_3_OCn
-Text GLabel 13000 5750 0    51   Input ~ 0
+Text GLabel 16350 7900 0    51   Input ~ 0
 USB0-
-Text GLabel 13000 5850 0    51   Input ~ 0
+Text GLabel 16350 8000 0    51   Input ~ 0
 USB0+
-Text GLabel 13000 5950 0    51   Input ~ 0
+Text GLabel 16350 8100 0    51   Input ~ 0
 VCC_RTC
-Text GLabel 13000 6150 0    51   Input ~ 0
+Text GLabel 16350 8300 0    51   Input ~ 0
 EXCD0_CPPEn
-Text GLabel 13000 6350 0    51   Input ~ 0
+Text GLabel 16350 8500 0    51   Input ~ 0
 GND
-Text GLabel 13000 6650 0    51   Input ~ 0
+Text GLabel 16350 8800 0    51   Input ~ 0
 GPI0
-Text GLabel 13000 6950 0    51   Input ~ 0
+Text GLabel 16350 9100 0    51   Input ~ 0
 GND
-Text GLabel 13000 7250 0    51   Input ~ 0
+Text GLabel 16350 9400 0    51   Input ~ 0
 GND
-Text GLabel 13000 7550 0    51   Input ~ 0
+Text GLabel 16350 9700 0    51   Input ~ 0
 GPI1
-Text GLabel 13000 7650 0    51   Input ~ 0
+Text GLabel 16350 9800 0    51   Input ~ 0
 PCIE_TX1+
-Text GLabel 13000 7750 0    51   Input ~ 0
+Text GLabel 16350 9900 0    51   Input ~ 0
 PCIE_TX1-
-Text GLabel 13000 7850 0    51   Input ~ 0
+Text GLabel 16350 10000 0    51   Input ~ 0
 GND
-Text GLabel 13000 7950 0    51   Input ~ 0
+Text GLabel 16350 10100 0    51   Input ~ 0
 GPI2
-Text GLabel 13000 8050 0    51   Input ~ 0
+Text GLabel 16350 10200 0    51   Input ~ 0
 PCIE_TX0+
-Text GLabel 13000 8150 0    51   Input ~ 0
+Text GLabel 16350 10300 0    51   Input ~ 0
 PCIE_TX0-
-Text GLabel 13000 8250 0    51   Input ~ 0
+Text GLabel 16350 10400 0    51   Input ~ 0
 GND
-Text GLabel 13000 8350 0    51   Input ~ 0
+Text GLabel 16350 10500 0    51   Input ~ 0
 LVDS_A0+
-Text GLabel 13000 8450 0    51   Input ~ 0
+Text GLabel 16350 10600 0    51   Input ~ 0
 LVDS_A0-
-Text GLabel 13000 8550 0    51   Input ~ 0
+Text GLabel 16350 10700 0    51   Input ~ 0
 LVDS_A1+
-Text GLabel 13000 8650 0    51   Input ~ 0
+Text GLabel 16350 10800 0    51   Input ~ 0
 LVDS_A1-
-Text GLabel 13000 8750 0    51   Input ~ 0
+Text GLabel 16350 10900 0    51   Input ~ 0
 LVDS_A2+
-Text GLabel 13000 8850 0    51   Input ~ 0
+Text GLabel 16350 11000 0    51   Input ~ 0
 LVDS_A2-
-Text GLabel 13000 8950 0    51   Input ~ 0
+Text GLabel 16350 11100 0    51   Input ~ 0
 LVD_VDD_EN
-Text GLabel 13000 9050 0    51   Input ~ 0
+Text GLabel 16350 11200 0    51   Input ~ 0
 LVDS_A3+
-Text GLabel 13000 9150 0    51   Input ~ 0
+Text GLabel 16350 11300 0    51   Input ~ 0
 LVDS_A3-
-Text GLabel 13000 9250 0    51   Input ~ 0
+Text GLabel 16350 11400 0    51   Input ~ 0
 GND
-Text GLabel 13000 9350 0    51   Input ~ 0
+Text GLabel 16350 11500 0    51   Input ~ 0
 LVDS_A_CK+
-Text GLabel 13000 9450 0    51   Input ~ 0
+Text GLabel 16350 11600 0    51   Input ~ 0
 LVDS_A_CK-
-Text GLabel 13000 9550 0    51   Input ~ 0
+Text GLabel 16350 11700 0    51   Input ~ 0
 LVDS_I2C_CK
-Text GLabel 13000 9650 0    51   Input ~ 0
+Text GLabel 16350 11800 0    51   Input ~ 0
 LDVS_I2C_DAT
-Text GLabel 13000 9750 0    51   Input ~ 0
+Text GLabel 16350 11900 0    51   Input ~ 0
 GPI3
-Text GLabel 13000 9950 0    51   Input ~ 0
+Text GLabel 16350 12100 0    51   Input ~ 0
 eDP_HPD
-Text GLabel 13000 10050 0    51   Input ~ 0
+Text GLabel 16350 12200 0    51   Input ~ 0
 PCIE_CLK_REF+
-Text GLabel 14500 5750 0    51   Input ~ 0
+Text GLabel 17850 7900 0    51   Input ~ 0
 PCIE_CLK_REF-
-Text GLabel 14500 5850 0    51   Input ~ 0
+Text GLabel 17850 8000 0    51   Input ~ 0
 GND
-Text GLabel 14500 5950 0    51   Input ~ 0
+Text GLabel 17850 8100 0    51   Input ~ 0
 SPI_POWER
-Text GLabel 14500 6050 0    51   Input ~ 0
+Text GLabel 17850 8200 0    51   Input ~ 0
 SPI_MISO
-Text GLabel 14500 6150 0    51   Input ~ 0
+Text GLabel 17850 8300 0    51   Input ~ 0
 GPO0
-Text GLabel 14500 6250 0    51   Input ~ 0
+Text GLabel 17850 8400 0    51   Input ~ 0
 SPI_CLK
-Text GLabel 14500 6350 0    51   Input ~ 0
+Text GLabel 17850 8500 0    51   Input ~ 0
 SPI_MOSI
-Text GLabel 14500 6550 0    51   Input ~ 0
+Text GLabel 17850 8700 0    51   Input ~ 0
 TYPE10n(GND)
-Text GLabel 14500 6650 0    51   Input ~ 0
+Text GLabel 17850 8800 0    51   Input ~ 0
 SER0_TX
-Text GLabel 14500 6750 0    51   Input ~ 0
+Text GLabel 17850 8900 0    51   Input ~ 0
 SER0_RX
-Text GLabel 14500 6850 0    51   Input ~ 0
+Text GLabel 17850 9000 0    51   Input ~ 0
 GND
-Text GLabel 14500 7150 0    51   Input ~ 0
+Text GLabel 17850 9300 0    51   Input ~ 0
 LIDn
-Text GLabel 14500 7250 0    51   Input ~ 0
+Text GLabel 17850 9400 0    51   Input ~ 0
 VCC_12V
-Text GLabel 14500 7350 0    51   Input ~ 0
+Text GLabel 17850 9500 0    51   Input ~ 0
 VCC_12V
-Text GLabel 14500 7450 0    51   Input ~ 0
+Text GLabel 17850 9600 0    51   Input ~ 0
 VCC_12V
-Text GLabel 14500 7550 0    51   Input ~ 0
+Text GLabel 17850 9700 0    51   Input ~ 0
 VCC_12V
-Text GLabel 14500 7650 0    51   Input ~ 0
+Text GLabel 17850 9800 0    51   Input ~ 0
 VCC_12V
-Text GLabel 14500 7750 0    51   Input ~ 0
+Text GLabel 17850 9900 0    51   Input ~ 0
 VCC_12V
-Text GLabel 14500 7850 0    51   Input ~ 0
+Text GLabel 17850 10000 0    51   Input ~ 0
 GND
-Text GLabel 14500 7950 0    51   Input ~ 0
+Text GLabel 17850 10100 0    51   Input ~ 0
 GND
-Text GLabel 14500 8050 0    51   Input ~ 0
+Text GLabel 17850 10200 0    51   Input ~ 0
 GBE0_ACTn
-Text GLabel 14500 8950 0    51   Input ~ 0
+Text GLabel 17850 11100 0    51   Input ~ 0
 GND
-Text GLabel 14500 9050 0    51   Input ~ 0
+Text GLabel 17850 11200 0    51   Input ~ 0
 PWRBTNn
-Text GLabel 14500 9950 0    51   Input ~ 0
+Text GLabel 17850 12100 0    51   Input ~ 0
 GND
-Text GLabel 14500 10050 0    51   Input ~ 0
+Text GLabel 17850 12200 0    51   Input ~ 0
 USB_SSTX0-
-Text GLabel 15950 5750 0    51   Input ~ 0
+Text GLabel 19300 7900 0    51   Input ~ 0
 USB_SSTX0+
-Text GLabel 15950 5850 0    51   Input ~ 0
+Text GLabel 19300 8000 0    51   Input ~ 0
 PWR_OK
-Text GLabel 15950 6450 0    51   Input ~ 0
+Text GLabel 19300 8600 0    51   Input ~ 0
 AC/HDA_SDIN0
-Text GLabel 15950 6550 0    51   Input ~ 0
+Text GLabel 19300 8700 0    51   Input ~ 0
 GND
-Text GLabel 15950 6750 0    51   Input ~ 0
+Text GLabel 19300 8900 0    51   Input ~ 0
 I2C_CK
-Text GLabel 15950 6850 0    51   Input ~ 0
+Text GLabel 19300 9000 0    51   Input ~ 0
 I2C_DAT
-Text GLabel 15950 6950 0    51   Input ~ 0
+Text GLabel 19300 9100 0    51   Input ~ 0
 THRMn
-Text GLabel 15950 7250 0    51   Input ~ 0
+Text GLabel 19300 9400 0    51   Input ~ 0
 USB_4_5_OCn
-Text GLabel 15950 7350 0    51   Input ~ 0
+Text GLabel 19300 9500 0    51   Input ~ 0
 USB5-
-Text GLabel 15950 7450 0    51   Input ~ 0
+Text GLabel 19300 9600 0    51   Input ~ 0
 USB5+
-Text GLabel 15950 7550 0    51   Input ~ 0
+Text GLabel 19300 9700 0    51   Input ~ 0
 GND
-Text GLabel 15950 7650 0    51   Input ~ 0
+Text GLabel 19300 9800 0    51   Input ~ 0
 USB3-
-Text GLabel 15950 7750 0    51   Input ~ 0
+Text GLabel 19300 9900 0    51   Input ~ 0
 USB3+
-Text GLabel 15950 7850 0    51   Input ~ 0
+Text GLabel 19300 10000 0    51   Input ~ 0
 USB_0_1_OCn
-Text GLabel 15950 7950 0    51   Input ~ 0
+Text GLabel 19300 10100 0    51   Input ~ 0
 USB1-
-Text GLabel 15950 8050 0    51   Input ~ 0
+Text GLabel 19300 10200 0    51   Input ~ 0
 USB1+
-Text GLabel 15950 8250 0    51   Input ~ 0
+Text GLabel 19300 10400 0    51   Input ~ 0
 EXCD1_CPPEn
-Text GLabel 15950 8350 0    51   Input ~ 0
+Text GLabel 19300 10500 0    51   Input ~ 0
 SYS_RESETn
-Text GLabel 15950 8450 0    51   Input ~ 0
+Text GLabel 19300 10600 0    51   Input ~ 0
 CB_RESETn
-Text GLabel 15950 8550 0    51   Input ~ 0
+Text GLabel 19300 10700 0    51   Input ~ 0
 GND
-Text GLabel 15950 8850 0    51   Input ~ 0
+Text GLabel 19300 11000 0    51   Input ~ 0
 GPO1
-Text GLabel 15950 9150 0    51   Input ~ 0
+Text GLabel 19300 11300 0    51   Input ~ 0
 GPO2
-Text GLabel 15950 9450 0    51   Input ~ 0
+Text GLabel 19300 11600 0    51   Input ~ 0
 GND
-Text GLabel 15950 9750 0    51   Input ~ 0
+Text GLabel 19300 11900 0    51   Input ~ 0
 GPO3
-Text GLabel 15950 9850 0    51   Input ~ 0
+Text GLabel 19300 12000 0    51   Input ~ 0
 PCIE_RX1+
-Text GLabel 15950 9950 0    51   Input ~ 0
+Text GLabel 19300 12100 0    51   Input ~ 0
 PCIE_RX1-
-Text GLabel 15950 10050 0    51   Input ~ 0
+Text GLabel 19300 12200 0    51   Input ~ 0
 WAKE0n
-Text GLabel 17500 5750 0    51   Input ~ 0
+Text GLabel 20850 7900 0    51   Input ~ 0
 WAKE1n
-Text GLabel 17500 5850 0    51   Input ~ 0
+Text GLabel 20850 8000 0    51   Input ~ 0
 PCIE_RX0+
-Text GLabel 17500 5950 0    51   Input ~ 0
+Text GLabel 20850 8100 0    51   Input ~ 0
 PCIE_RX0-
-Text GLabel 17500 6050 0    51   Input ~ 0
+Text GLabel 20850 8200 0    51   Input ~ 0
 GND
-Text GLabel 17500 6150 0    51   Input ~ 0
+Text GLabel 20850 8300 0    51   Input ~ 0
 DDIO_PAIR0+
-Text GLabel 17500 6250 0    51   Input ~ 0
+Text GLabel 20850 8400 0    51   Input ~ 0
 DDIO_PAIR0-
-Text GLabel 17500 6350 0    51   Input ~ 0
+Text GLabel 20850 8500 0    51   Input ~ 0
 DDIO_PAIR1+
-Text GLabel 17500 6450 0    51   Input ~ 0
+Text GLabel 20850 8600 0    51   Input ~ 0
 DDIO_PAIR1-
-Text GLabel 17500 6550 0    51   Input ~ 0
+Text GLabel 20850 8700 0    51   Input ~ 0
 DDIO_PAIR2+
-Text GLabel 17500 6650 0    51   Input ~ 0
+Text GLabel 20850 8800 0    51   Input ~ 0
 DDIO_PAIR2-
-Text GLabel 17500 6950 0    51   Input ~ 0
+Text GLabel 20850 9100 0    51   Input ~ 0
 LVDS_BKLT_EN
-Text GLabel 17500 7050 0    51   Input ~ 0
+Text GLabel 20850 9200 0    51   Input ~ 0
 GND
-Text GLabel 17500 7150 0    51   Input ~ 0
+Text GLabel 20850 9300 0    51   Input ~ 0
 DDIO_PAIR3+
-Text GLabel 17500 7250 0    51   Input ~ 0
+Text GLabel 20850 9400 0    51   Input ~ 0
 DDIO_PAIR3-
-Text GLabel 17500 7350 0    51   Input ~ 0
+Text GLabel 20850 9500 0    51   Input ~ 0
 LVDS_BKLT_CTRL
-Text GLabel 17500 7450 0    51   Input ~ 0
+Text GLabel 20850 9600 0    51   Input ~ 0
 VCC_5V_SBY
-Text GLabel 17500 7550 0    51   Input ~ 0
+Text GLabel 20850 9700 0    51   Input ~ 0
 VCC_5V_SBY
-Text GLabel 17500 7650 0    51   Input ~ 0
+Text GLabel 20850 9800 0    51   Input ~ 0
 VCC_5V_SBY
-Text GLabel 17500 7750 0    51   Input ~ 0
+Text GLabel 20850 9900 0    51   Input ~ 0
 VCC_5V_SBY
-Text GLabel 17500 7950 0    51   Input ~ 0
+Text GLabel 20850 10100 0    51   Input ~ 0
 DDIO_HPD
-Text GLabel 17500 8050 0    51   Input ~ 0
+Text GLabel 20850 10200 0    51   Input ~ 0
 GND
-Text GLabel 17500 8550 0    51   Input ~ 0
+Text GLabel 20850 10700 0    51   Input ~ 0
 DDIO_DDC_AUX_SEL
-Text GLabel 17500 8750 0    51   Input ~ 0
+Text GLabel 20850 10900 0    51   Input ~ 0
 SPI_CSn
-Text GLabel 17500 8850 0    51   Input ~ 0
+Text GLabel 20850 11000 0    51   Input ~ 0
 DDIO_CTRLCLK_AUX+
-Text GLabel 17500 8950 0    51   Input ~ 0
+Text GLabel 20850 11100 0    51   Input ~ 0
 DDIO_CTRLDATA_AUX-
-Text GLabel 17500 9050 0    51   Input ~ 0
+Text GLabel 20850 11200 0    51   Input ~ 0
 GND
-Text GLabel 17500 9150 0    51   Input ~ 0
+Text GLabel 20850 11300 0    51   Input ~ 0
 FAN_PWMOUTn
-Text GLabel 17500 9250 0    51   Input ~ 0
+Text GLabel 20850 11400 0    51   Input ~ 0
 FAN_TACHINn
-Text GLabel 17500 9350 0    51   Input ~ 0
+Text GLabel 20850 11500 0    51   Input ~ 0
 SLEEPn
-Text GLabel 17500 9450 0    51   Input ~ 0
+Text GLabel 20850 11600 0    51   Input ~ 0
 VCC_12V
-Text GLabel 17500 9550 0    51   Input ~ 0
+Text GLabel 20850 11700 0    51   Input ~ 0
 VCC_12V
-Text GLabel 17500 9650 0    51   Input ~ 0
+Text GLabel 20850 11800 0    51   Input ~ 0
 VCC_12V
-Text GLabel 17500 9750 0    51   Input ~ 0
+Text GLabel 20850 11900 0    51   Input ~ 0
 VCC_12V
-Text GLabel 17500 9850 0    51   Input ~ 0
+Text GLabel 20850 12000 0    51   Input ~ 0
 VCC_12V
-Text GLabel 17500 9950 0    51   Input ~ 0
+Text GLabel 20850 12100 0    51   Input ~ 0
 VCC_12V
-Text GLabel 17500 10050 0    51   Input ~ 0
+Text GLabel 20850 12200 0    51   Input ~ 0
 GND
 $Comp
 L +12V #PWR017
@@ -787,10 +788,10 @@ F 11 "13" H 2450 500 50  0001 C CNN "Height"
 	-1   0    0    1   
 $EndComp
 $Comp
-L +12V #PWR?
+L +12V #PWR019
 U 1 1 5A0413FE
 P 1900 1750
-F 0 "#PWR?" H 1900 1600 50  0001 C CNN
+F 0 "#PWR019" H 1900 1600 50  0001 C CNN
 F 1 "+12V" H 1900 1890 50  0000 C CNN
 F 2 "" H 1900 1750 50  0001 C CNN
 F 3 "" H 1900 1750 50  0001 C CNN
@@ -798,10 +799,10 @@ F 3 "" H 1900 1750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GNDREF #PWR?
+L GNDREF #PWR020
 U 1 1 5A04143A
 P 1900 1650
-F 0 "#PWR?" H 1900 1400 50  0001 C CNN
+F 0 "#PWR020" H 1900 1400 50  0001 C CNN
 F 1 "GNDREF" H 1900 1500 50  0000 C CNN
 F 2 "" H 1900 1650 50  0001 C CNN
 F 3 "" H 1900 1650 50  0001 C CNN
@@ -809,10 +810,10 @@ F 3 "" H 1900 1650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L ADC128D818CIMTX U?
+L ADC128D818CIMTX U4
 U 1 1 5A040A1C
 P 5750 3400
-F 0 "U?" H 5750 3400 60  0000 C CNN
+F 0 "U4" H 5750 3400 60  0000 C CNN
 F 1 "ADC128D818CIMTX" H 5750 3400 60  0000 C CNN
 F 2 "" H 5750 3400 60  0001 C CNN
 F 3 "" H 5750 3400 60  0001 C CNN
@@ -820,21 +821,21 @@ F 3 "" H 5750 3400 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +5V #PWR?
+L +5V #PWR021
 U 1 1 5A040E2D
-P 6400 3100
-F 0 "#PWR?" H 6400 2950 50  0001 C CNN
-F 1 "+5V" H 6400 3240 50  0000 C CNN
-F 2 "" H 6400 3100 50  0001 C CNN
-F 3 "" H 6400 3100 50  0001 C CNN
-	1    6400 3100
-	0    1    1    0   
+P 6600 3250
+F 0 "#PWR021" H 6600 3100 50  0001 C CNN
+F 1 "+5V" H 6600 3390 50  0000 C CNN
+F 2 "" H 6600 3250 50  0001 C CNN
+F 3 "" H 6600 3250 50  0001 C CNN
+	1    6600 3250
+	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR?
+L +5V #PWR022
 U 1 1 5A0416DE
 P 7000 2650
-F 0 "#PWR?" H 7000 2500 50  0001 C CNN
+F 0 "#PWR022" H 7000 2500 50  0001 C CNN
 F 1 "+5V" H 7000 2790 50  0000 C CNN
 F 2 "" H 7000 2650 50  0001 C CNN
 F 3 "" H 7000 2650 50  0001 C CNN
@@ -842,21 +843,21 @@ F 3 "" H 7000 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CAPH C?
+L CAPH C5
 U 1 1 5A0418E5
 P 7000 3000
-F 0 "C?" V 7075 3225 60  0000 C CNN
-F 1 "1uF Electrolytic" V 7000 3150 60  0000 C CNN
+F 0 "C5" V 7075 3225 60  0000 C CNN
+F 1 "1uF Electrolytic" V 7000 3150 60  0001 C BNN
 F 2 "BusSimulator:C22" H 7150 2640 60  0001 C CNN
 F 3 "" H 7000 3000 60  0000 C CNN
 	1    7000 3000
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GNDREF #PWR?
+L GNDREF #PWR023
 U 1 1 5A042478
 P 7000 3000
-F 0 "#PWR?" H 7000 2750 50  0001 C CNN
+F 0 "#PWR023" H 7000 2750 50  0001 C CNN
 F 1 "GNDREF" H 7000 2850 50  0000 C CNN
 F 2 "" H 7000 3000 50  0001 C CNN
 F 3 "" H 7000 3000 50  0001 C CNN
@@ -864,21 +865,21 @@ F 3 "" H 7000 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CAPH C?
+L CAPH C6
 U 1 1 5A0425C5
 P 7400 3000
-F 0 "C?" V 7475 3225 60  0000 C CNN
-F 1 ".1uF ceramic" V 7400 3150 60  0000 C CNN
+F 0 "C6" V 7475 3225 60  0000 C CNN
+F 1 ".1uF ceramic" V 7400 3150 60  0000 R CNN
 F 2 "BusSimulator:C22" H 7550 2640 60  0001 C CNN
 F 3 "" H 7400 3000 60  0000 C CNN
 	1    7400 3000
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GNDREF #PWR?
+L GNDREF #PWR024
 U 1 1 5A042743
 P 7400 3000
-F 0 "#PWR?" H 7400 2750 50  0001 C CNN
+F 0 "#PWR024" H 7400 2750 50  0001 C CNN
 F 1 "GNDREF" H 7400 2850 50  0000 C CNN
 F 2 "" H 7400 3000 50  0001 C CNN
 F 3 "" H 7400 3000 50  0001 C CNN
@@ -886,10 +887,10 @@ F 3 "" H 7400 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDREF #PWR?
+L GNDREF #PWR025
 U 1 1 5A0428F2
 P 6700 2500
-F 0 "#PWR?" H 6700 2250 50  0001 C CNN
+F 0 "#PWR025" H 6700 2250 50  0001 C CNN
 F 1 "GNDREF" H 6700 2350 50  0000 C CNN
 F 2 "" H 6700 2500 50  0001 C CNN
 F 3 "" H 6700 2500 50  0001 C CNN
@@ -897,10 +898,10 @@ F 3 "" H 6700 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R?
+L R R9
 U 1 1 5A042BF5
 P 4100 3150
-F 0 "R?" V 4180 3150 50  0000 C CNN
+F 0 "R9" V 4180 3150 50  0000 C CNN
 F 1 "10k" V 4100 3150 50  0000 C CNN
 F 2 "" V 4030 3150 50  0001 C CNN
 F 3 "" H 4100 3150 50  0001 C CNN
@@ -908,10 +909,10 @@ F 3 "" H 4100 3150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R?
+L R R10
 U 1 1 5A042D6A
 P 4250 3300
-F 0 "R?" V 4330 3300 50  0000 C CNN
+F 0 "R10" V 4330 3300 50  0000 C CNN
 F 1 "10k" V 4250 3300 50  0000 C CNN
 F 2 "" V 4180 3300 50  0001 C CNN
 F 3 "" H 4250 3300 50  0001 C CNN
@@ -919,10 +920,10 @@ F 3 "" H 4250 3300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GNDREF #PWR?
+L GNDREF #PWR026
 U 1 1 5A042E3D
 P 4250 3450
-F 0 "#PWR?" H 4250 3200 50  0001 C CNN
+F 0 "#PWR026" H 4250 3200 50  0001 C CNN
 F 1 "GNDREF" H 4250 3300 50  0000 C CNN
 F 2 "" H 4250 3450 50  0001 C CNN
 F 3 "" H 4250 3450 50  0001 C CNN
@@ -1038,11 +1039,9 @@ Wire Wire Line
 Wire Wire Line
 	3250 4400 3050 4400
 Wire Wire Line
-	6400 2700 6950 2700
+	6400 2700 7400 2700
 Wire Wire Line
 	7000 2700 7000 2650
-Wire Wire Line
-	7000 2700 7400 2700
 Wire Wire Line
 	6400 2400 6700 2400
 Wire Wire Line
@@ -1060,10 +1059,10 @@ Wire Wire Line
 Text Label 6600 2350 0    60   ~ 0
 Reg0d
 $Comp
-L +12V #PWR?
+L +12V #PWR027
 U 1 1 5A043A65
 P 4800 1350
-F 0 "#PWR?" H 4800 1200 50  0001 C CNN
+F 0 "#PWR027" H 4800 1200 50  0001 C CNN
 F 1 "+12V" H 4800 1490 50  0000 C CNN
 F 2 "" H 4800 1350 50  0001 C CNN
 F 3 "" H 4800 1350 50  0001 C CNN
@@ -1071,10 +1070,10 @@ F 3 "" H 4800 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R?
+L R R11
 U 1 1 5A043AF6
 P 4800 1600
-F 0 "R?" V 4880 1600 50  0000 C CNN
+F 0 "R11" V 4880 1600 50  0000 C CNN
 F 1 "30k" V 4800 1600 50  0000 C CNN
 F 2 "" V 4730 1600 50  0001 C CNN
 F 3 "" H 4800 1600 50  0001 C CNN
@@ -1082,10 +1081,10 @@ F 3 "" H 4800 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R?
+L R R12
 U 1 1 5A043B99
 P 4800 1900
-F 0 "R?" V 4880 1900 50  0000 C CNN
+F 0 "R12" V 4880 1900 50  0000 C CNN
 F 1 "10k" V 4800 1900 50  0000 C CNN
 F 2 "" V 4730 1900 50  0001 C CNN
 F 3 "" H 4800 1900 50  0001 C CNN
@@ -1095,10 +1094,10 @@ $EndComp
 Wire Wire Line
 	4800 1750 5150 1750
 $Comp
-L GNDREF #PWR?
+L GNDREF #PWR028
 U 1 1 5A043C4E
 P 4800 2050
-F 0 "#PWR?" H 4800 1800 50  0001 C CNN
+F 0 "#PWR028" H 4800 1800 50  0001 C CNN
 F 1 "GNDREF" H 4800 1900 50  0000 C CNN
 F 2 "" H 4800 2050 50  0001 C CNN
 F 3 "" H 4800 2050 50  0001 C CNN
@@ -1106,10 +1105,10 @@ F 3 "" H 4800 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MCP6H04-E/SL U?
+L MCP6H04-E/SL U3
 U 1 1 5A0443F0
 P 5100 4250
-F 0 "U?" H 6000 4650 60  0000 C CNN
+F 0 "U3" H 6000 4650 60  0000 C CNN
 F 1 "MCP6H04-E/SL" H 6000 4550 60  0000 C CNN
 F 2 "SOIC14_SL" H 6000 4490 60  0001 C CNN
 F 3 "" H 5100 4250 60  0000 C CNN
@@ -1125,10 +1124,10 @@ VoutC
 Text GLabel 6900 4550 2    60   Input ~ 0
 VoutD
 $Comp
-L +5V #PWR?
+L +5V #PWR029
 U 1 1 5A04477C
 P 5100 5350
-F 0 "#PWR?" H 5100 5200 50  0001 C CNN
+F 0 "#PWR029" H 5100 5200 50  0001 C CNN
 F 1 "+5V" H 5100 5490 50  0000 C CNN
 F 2 "" H 5100 5350 50  0001 C CNN
 F 3 "" H 5100 5350 50  0001 C CNN
@@ -1136,10 +1135,10 @@ F 3 "" H 5100 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDREF #PWR?
+L GNDREF #PWR030
 U 1 1 5A0447C8
 P 6900 4950
-F 0 "#PWR?" H 6900 4700 50  0001 C CNN
+F 0 "#PWR030" H 6900 4700 50  0001 C CNN
 F 1 "GNDREF" H 6900 4800 50  0000 C CNN
 F 2 "" H 6900 4950 50  0001 C CNN
 F 3 "" H 6900 4950 50  0001 C CNN
@@ -1172,4 +1171,140 @@ Text GLabel 5250 2900 0    60   Input ~ 0
 VOutC
 Text GLabel 5250 2800 0    60   Input ~ 0
 VoutD
+Wire Wire Line
+	6400 3100 6400 3250
+Wire Wire Line
+	6400 3250 6600 3250
+Connection ~ 7000 2700
+Text GLabel 6400 2900 2    60   Input ~ 0
+SCLADC
+Text GLabel 6400 3000 2    60   Input ~ 0
+SDASDC
+Text GLabel 7200 3600 0    60   Input ~ 0
+SDASDC
+Text GLabel 7200 3700 0    60   Input ~ 0
+SCLADC
+$Comp
+L GNDREF #PWR031
+U 1 1 5A041C29
+P 7200 3800
+F 0 "#PWR031" H 7200 3550 50  0001 C CNN
+F 1 "GNDREF" H 7200 3650 50  0000 C CNN
+F 2 "" H 7200 3800 50  0001 C CNN
+F 3 "" H 7200 3800 50  0001 C CNN
+	1    7200 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L ISO1540DR U5
+U 1 1 5A0411A5
+P 7200 3500
+F 0 "U5" H 8000 3900 60  0000 C CNN
+F 1 "ISO1540DR" H 8000 3800 60  0000 C CNN
+F 2 "D8" H 8000 3740 60  0001 C CNN
+F 3 "" H 7200 3500 60  0000 C CNN
+	1    7200 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3VA #PWR033
+U 1 1 5A0420C6
+P 8800 3500
+F 0 "#PWR033" H 8800 3350 50  0001 C CNN
+F 1 "+3.3VA" H 8800 3640 50  0000 C CNN
+F 2 "" H 8800 3500 50  0001 C CNN
+F 3 "" H 8800 3500 50  0001 C CNN
+	1    8800 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR034
+U 1 1 5A04245D
+P 8800 3800
+F 0 "#PWR034" H 8800 3550 50  0001 C CNN
+F 1 "GND" H 8800 3650 50  0000 C CNN
+F 2 "" H 8800 3800 50  0001 C CNN
+F 3 "" H 8800 3800 50  0001 C CNN
+	1    8800 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L ARDUINO_DUE_SHIELD SHIELD1
+U 1 1 5A042A55
+P 12100 2900
+F 0 "SHIELD1" H 11700 5550 60  0000 C CNN
+F 1 "ARDUINO_DUE_SHIELD" H 12100 2900 60  0000 C CNN
+F 2 "FT:ARDUINO_DUE_SHIELD" H 12100 2700 50  0001 C CNN
+F 3 "" H 12100 2900 60  0000 C CNN
+	1    12100 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5A043D7A
+P 7200 3500
+F 0 "#PWR?" H 7200 3350 50  0001 C CNN
+F 1 "+5V" H 7200 3640 50  0000 C CNN
+F 2 "" H 7200 3500 50  0001 C CNN
+F 3 "" H 7200 3500 50  0001 C CNN
+	1    7200 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11200 5350 9800 5350
+Wire Wire Line
+	9800 5350 9800 3600
+Wire Wire Line
+	9800 3600 8800 3600
+Wire Wire Line
+	8800 3700 9700 3700
+Wire Wire Line
+	9700 3700 9700 5450
+Wire Wire Line
+	9700 5450 11200 5450
+Wire Wire Line
+	4800 1350 4800 1450
+$Comp
+L GND #PWR?
+U 1 1 5A044E47
+P 10950 5150
+F 0 "#PWR?" H 10950 4900 50  0001 C CNN
+F 1 "GND" H 10950 5000 50  0000 C CNN
+F 2 "" H 10950 5150 50  0001 C CNN
+F 3 "" H 10950 5150 50  0001 C CNN
+	1    10950 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11200 5150 10950 5150
+Wire Wire Line
+	13100 2200 13100 2300
+Wire Wire Line
+	13100 2300 13250 2300
+$Comp
+L GND #PWR?
+U 1 1 5A0450B6
+P 13250 2300
+F 0 "#PWR?" H 13250 2050 50  0001 C CNN
+F 1 "GND" H 13250 2150 50  0000 C CNN
+F 2 "" H 13250 2300 50  0001 C CNN
+F 3 "" H 13250 2300 50  0001 C CNN
+	1    13250 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5A0451BA
+P 13300 4450
+F 0 "#PWR?" H 13300 4200 50  0001 C CNN
+F 1 "GND" H 13300 4300 50  0000 C CNN
+F 2 "" H 13300 4450 50  0001 C CNN
+F 3 "" H 13300 4450 50  0001 C CNN
+	1    13300 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13100 4450 13300 4450
+Wire Wire Line
+	13100 4550 13100 4450
 $EndSCHEMATC

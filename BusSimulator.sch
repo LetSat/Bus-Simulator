@@ -442,30 +442,8 @@ F 3 "" H 20850 7900 60  0000 C CNN
 $EndComp
 Text GLabel 14850 7900 0    51   Input ~ 0
 mCOM_GND
-Text GLabel 14850 8000 0    51   Input ~ 0
-GBE0_MDI3-
-Text GLabel 14850 8100 0    51   Input ~ 0
-GBE0_MDI3+
-Text GLabel 14850 8200 0    51   Input ~ 0
-GBE0_LINK100n
-Text GLabel 14850 8300 0    51   Input ~ 0
-GBE0_LINK1000n
-Text GLabel 14850 8400 0    51   Input ~ 0
-GBE0_MDI2-
-Text GLabel 14850 8500 0    51   Input ~ 0
-GBE0_MDI2+
-Text GLabel 14850 8700 0    51   Input ~ 0
-GBE0_MDI1-
-Text GLabel 14850 8800 0    51   Input ~ 0
-GBE0_MDI1+
 Text GLabel 14850 8900 0    51   Input ~ 0
 mCOM_GND
-Text GLabel 14850 9000 0    51   Input ~ 0
-GBE0_MDI0-
-Text GLabel 14850 9100 0    51   Input ~ 0
-GBE0_MDI0+
-Text GLabel 14850 9200 0    51   Input ~ 0
-GBE0_CTREF(GND)
 Text GLabel 14850 9400 0    51   Input ~ 0
 SATA0_TX+
 Text GLabel 14850 9500 0    51   Input ~ 0
@@ -476,42 +454,12 @@ Text GLabel 14850 9800 0    51   Input ~ 0
 SATA0_RX-
 Text GLabel 14850 9900 0    51   Input ~ 0
 mCOM_GND
-Text GLabel 14850 10000 0    51   Input ~ 0
-USB_SSRX0-
-Text GLabel 14850 10100 0    51   Input ~ 0
-USB_SSRX0+
-Text GLabel 14850 10500 0    51   Input ~ 0
-BATLOWn
 Text GLabel 14850 10600 0    51   Input ~ 0
 SATA_ACTn
-Text GLabel 14850 10700 0    51   Input ~ 0
-AC/HDA_SYNC
 Text GLabel 14850 10900 0    51   Input ~ 0
 mCOM_GND
-Text GLabel 14850 11000 0    51   Input ~ 0
-AC/HDA_BITCLK
-Text GLabel 14850 11100 0    51   Input ~ 0
-AC/HDA_SDOUT
-Text GLabel 14850 11700 0    51   Input ~ 0
-USB4-
-Text GLabel 14850 11800 0    51   Input ~ 0
-USB4+
 Text GLabel 14850 11900 0    51   Input ~ 0
 mCOM_GND
-Text GLabel 14850 12000 0    51   Input ~ 0
-USB2-
-Text GLabel 14850 12100 0    51   Input ~ 0
-USB2+
-Text GLabel 14850 12200 0    51   Input ~ 0
-USB_2_3_OCn
-Text GLabel 16350 7900 0    51   Input ~ 0
-USB0-
-Text GLabel 16350 8000 0    51   Input ~ 0
-USB0+
-Text GLabel 16350 8100 0    51   Input ~ 0
-VCC_RTC
-Text GLabel 16350 8300 0    51   Input ~ 0
-EXCD0_CPPEn
 Text GLabel 16350 8500 0    51   Input ~ 0
 mCOM_GND
 Text GLabel 16350 8800 0    51   Input ~ 0
@@ -522,78 +470,26 @@ Text GLabel 16350 9400 0    51   Input ~ 0
 mCOM_GND
 Text GLabel 16350 9700 0    51   Input ~ 0
 GPI1
-Text GLabel 16350 9800 0    51   Input ~ 0
-PCIE_TX1+
-Text GLabel 16350 9900 0    51   Input ~ 0
-PCIE_TX1-
 Text GLabel 16350 10000 0    51   Input ~ 0
 mCOM_GND
 Text GLabel 16350 10100 0    51   Input ~ 0
 GPI2
-Text GLabel 16350 10200 0    51   Input ~ 0
-PCIE_TX0+
-Text GLabel 16350 10300 0    51   Input ~ 0
-PCIE_TX0-
 Text GLabel 16350 10400 0    51   Input ~ 0
 mCOM_GND
-Text GLabel 16350 10500 0    51   Input ~ 0
-LVDS_A0+
-Text GLabel 16350 10600 0    51   Input ~ 0
-LVDS_A0-
-Text GLabel 16350 10700 0    51   Input ~ 0
-LVDS_A1+
-Text GLabel 16350 10800 0    51   Input ~ 0
-LVDS_A1-
-Text GLabel 16350 10900 0    51   Input ~ 0
-LVDS_A2+
-Text GLabel 16350 11000 0    51   Input ~ 0
-LVDS_A2-
-Text GLabel 16350 11100 0    51   Input ~ 0
-LVD_VDD_EN
-Text GLabel 16350 11200 0    51   Input ~ 0
-LVDS_A3+
-Text GLabel 16350 11300 0    51   Input ~ 0
-LVDS_A3-
 Text GLabel 16350 11400 0    51   Input ~ 0
 mCOM_GND
-Text GLabel 16350 11500 0    51   Input ~ 0
-LVDS_A_CK+
-Text GLabel 16350 11600 0    51   Input ~ 0
-LVDS_A_CK-
-Text GLabel 16350 11700 0    51   Input ~ 0
-LVDS_I2C_CK
-Text GLabel 16350 11800 0    51   Input ~ 0
-LDVS_I2C_DAT
 Text GLabel 16350 11900 0    51   Input ~ 0
 GPI3
-Text GLabel 16350 12100 0    51   Input ~ 0
-eDP_HPD
-Text GLabel 16350 12200 0    51   Input ~ 0
-PCIE_CLK_REF+
-Text GLabel 17850 7900 0    51   Input ~ 0
-PCIE_CLK_REF-
 Text GLabel 17850 8000 0    51   Input ~ 0
 mCOM_GND
-Text GLabel 17850 8100 0    51   Input ~ 0
-SPI_POWER
-Text GLabel 17850 8200 0    51   Input ~ 0
-SPI_MISO
 Text GLabel 17850 8300 0    51   Input ~ 0
 GPO0
-Text GLabel 17850 8400 0    51   Input ~ 0
-SPI_CLK
-Text GLabel 17850 8500 0    51   Input ~ 0
-SPI_MOSI
-Text GLabel 17850 8700 0    51   Input ~ 0
-TYPE10n(GND)
 Text GLabel 17850 8800 0    51   Input ~ 0
 SER0_TX
 Text GLabel 17850 8900 0    51   Input ~ 0
 SER0_RX
 Text GLabel 17850 9000 0    51   Input ~ 0
 mCOM_GND
-Text GLabel 17850 9300 0    51   Input ~ 0
-LIDn
 Text GLabel 17850 9400 0    51   Input ~ 0
 mCOM_12V
 Text GLabel 17850 9500 0    51   Input ~ 0
@@ -610,54 +506,24 @@ Text GLabel 17850 10000 0    51   Input ~ 0
 mCOM_GND
 Text GLabel 17850 10100 0    51   Input ~ 0
 mCOM_GND
-Text GLabel 17850 10200 0    51   Input ~ 0
-GBE0_ACTn
 Text GLabel 17850 11100 0    51   Input ~ 0
 mCOM_GND
 Text GLabel 17850 11200 0    51   Input ~ 0
 PWRBTNn
 Text GLabel 17850 12100 0    51   Input ~ 0
 mCOM_GND
-Text GLabel 17850 12200 0    51   Input ~ 0
-USB_SSTX0-
-Text GLabel 19350 7900 0    51   Input ~ 0
-USB_SSTX0+
 Text GLabel 19350 8000 0    51   Input ~ 0
 PWR_OK
-Text GLabel 19350 8600 0    51   Input ~ 0
-AC/HDA_SDIN0
 Text GLabel 19350 8700 0    51   Input ~ 0
 mCOM_GND
 Text GLabel 19350 8900 0    51   Input ~ 0
 I2C_CK
 Text GLabel 19350 9000 0    51   Input ~ 0
 I2C_DAT
-Text GLabel 19350 9100 0    51   Input ~ 0
-THRMn
-Text GLabel 19350 9400 0    51   Input ~ 0
-USB_4_5_OCn
-Text GLabel 19350 9500 0    51   Input ~ 0
-USB5-
-Text GLabel 19350 9600 0    51   Input ~ 0
-USB5+
 Text GLabel 19350 9700 0    51   Input ~ 0
 mCOM_GND
-Text GLabel 19350 9800 0    51   Input ~ 0
-USB3-
-Text GLabel 19350 9900 0    51   Input ~ 0
-USB3+
-Text GLabel 19350 10000 0    51   Input ~ 0
-USB_0_1_OCn
-Text GLabel 19350 10100 0    51   Input ~ 0
-USB1-
-Text GLabel 19350 10200 0    51   Input ~ 0
-USB1+
-Text GLabel 19350 10400 0    51   Input ~ 0
-EXCD1_CPPEn
 Text GLabel 19350 10500 0    51   Input ~ 0
 SYS_RESETn
-Text GLabel 19350 10600 0    51   Input ~ 0
-CB_RESETn
 Text GLabel 19350 10700 0    51   Input ~ 0
 mCOM_GND
 Text GLabel 19350 11000 0    51   Input ~ 0
@@ -668,42 +534,12 @@ Text GLabel 19350 11600 0    51   Input ~ 0
 mCOM_GND
 Text GLabel 19350 11900 0    51   Input ~ 0
 GPO3
-Text GLabel 19350 12000 0    51   Input ~ 0
-PCIE_RX1+
-Text GLabel 19350 12100 0    51   Input ~ 0
-PCIE_RX1-
-Text GLabel 19350 12200 0    51   Input ~ 0
-WAKE0n
 Text GLabel 20850 7900 0    51   Input ~ 0
 WAKE1n
-Text GLabel 20850 8000 0    51   Input ~ 0
-PCIE_RX0+
-Text GLabel 20850 8100 0    51   Input ~ 0
-PCIE_RX0-
 Text GLabel 20850 8200 0    51   Input ~ 0
 mCOM_GND
-Text GLabel 20850 8300 0    51   Input ~ 0
-DDIO_PAIR0+
-Text GLabel 20850 8400 0    51   Input ~ 0
-DDIO_PAIR0-
-Text GLabel 20850 8500 0    51   Input ~ 0
-DDIO_PAIR1+
-Text GLabel 20850 8600 0    51   Input ~ 0
-DDIO_PAIR1-
-Text GLabel 20850 8700 0    51   Input ~ 0
-DDIO_PAIR2+
-Text GLabel 20850 8800 0    51   Input ~ 0
-DDIO_PAIR2-
-Text GLabel 20850 9100 0    51   Input ~ 0
-LVDS_BKLT_EN
 Text GLabel 20850 9200 0    51   Input ~ 0
 mCOM_GND
-Text GLabel 20850 9300 0    51   Input ~ 0
-DDIO_PAIR3+
-Text GLabel 20850 9400 0    51   Input ~ 0
-DDIO_PAIR3-
-Text GLabel 20850 9500 0    51   Input ~ 0
-LVDS_BKLT_CTRL
 Text GLabel 20850 9600 0    51   Input ~ 0
 mCOM_5V_SBY
 Text GLabel 20850 9700 0    51   Input ~ 0
@@ -712,24 +548,10 @@ Text GLabel 20850 9800 0    51   Input ~ 0
 mCOM_5V_SBY
 Text GLabel 20850 9900 0    51   Input ~ 0
 mCOM_5V_SBY
-Text GLabel 20850 10100 0    51   Input ~ 0
-DDIO_HPD
 Text GLabel 20850 10200 0    51   Input ~ 0
 mCOM_GND
-Text GLabel 20850 10700 0    51   Input ~ 0
-DDIO_DDC_AUX_SEL
-Text GLabel 20850 10900 0    51   Input ~ 0
-SPI_CSn
-Text GLabel 20850 11000 0    51   Input ~ 0
-DDIO_CTRLCLK_AUX+
-Text GLabel 20850 11100 0    51   Input ~ 0
-DDIO_CTRLDATA_AUX-
 Text GLabel 20850 11200 0    51   Input ~ 0
 mCOM_GND
-Text GLabel 20850 11300 0    51   Input ~ 0
-FAN_PWMOUTn
-Text GLabel 20850 11400 0    51   Input ~ 0
-FAN_TACHINn
 Text GLabel 20850 11500 0    51   Input ~ 0
 SLEEPn
 Text GLabel 20850 11600 0    51   Input ~ 0
@@ -939,7 +761,13 @@ Wire Wire Line
 Connection ~ 3950 3300
 Connection ~ 3950 3450
 Wire Wire Line
-	3950 3000 3950 3600
+	3950 3000 3950 3150
+Wire Wire Line
+	3950 3150 3950 3300
+Wire Wire Line
+	3950 3300 3950 3450
+Wire Wire Line
+	3950 3450 3950 3600
 Connection ~ 3950 3150
 Wire Wire Line
 	2800 3450 2600 3450
@@ -956,7 +784,9 @@ Wire Wire Line
 Wire Wire Line
 	3300 2150 3325 2150
 Wire Wire Line
-	3225 1775 3225 2150
+	3225 1775 3225 2050
+Wire Wire Line
+	3225 2050 3225 2150
 Wire Wire Line
 	3125 2150 3125 2050
 Wire Wire Line
@@ -979,7 +809,9 @@ Wire Wire Line
 Wire Wire Line
 	3300 1400 3300 1425
 Wire Wire Line
-	3750 6150 4500 6150
+	3750 6150 3900 6150
+Wire Wire Line
+	3900 6150 4500 6150
 Wire Wire Line
 	3900 6300 3750 6300
 Wire Wire Line
@@ -987,7 +819,13 @@ Wire Wire Line
 Connection ~ 3900 6300
 Connection ~ 3900 6450
 Wire Wire Line
-	3900 6000 3900 6600
+	3900 6000 3900 6150
+Wire Wire Line
+	3900 6150 3900 6300
+Wire Wire Line
+	3900 6300 3900 6450
+Wire Wire Line
+	3900 6450 3900 6600
 Connection ~ 3900 6150
 Wire Wire Line
 	2750 6450 2550 6450
@@ -1004,7 +842,9 @@ Wire Wire Line
 Wire Wire Line
 	3250 5150 3275 5150
 Wire Wire Line
-	3175 4775 3175 5150
+	3175 4775 3175 5050
+Wire Wire Line
+	3175 5050 3175 5150
 Wire Wire Line
 	3075 5150 3075 5050
 Wire Wire Line
@@ -1039,7 +879,9 @@ Wire Wire Line
 Wire Wire Line
 	3250 4400 3050 4400
 Wire Wire Line
-	6400 2700 7400 2700
+	6400 2700 7000 2700
+Wire Wire Line
+	7000 2700 7400 2700
 Wire Wire Line
 	7000 2700 7000 2650
 Wire Wire Line

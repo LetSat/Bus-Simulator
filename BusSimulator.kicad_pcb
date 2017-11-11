@@ -3,7 +3,7 @@
   (general
     (links 0)
     (no_connects 20)
-    (area 108.853572 86.26384 211.882401 142.04484)
+    (area 109.924999 88.174999 211.675001 141.675001)
     (thickness 1.6)
     (drawings 10)
     (tracks 170)
@@ -1130,8 +1130,8 @@
       (xy 8.095187 -2.251364) (xy 7.631314 -2.019188)) (layer F.SilkS) (width 0.01))
   )
 
-  (module BusSimulator:ComExpressMini10 (layer F.Cu) (tedit 5A05691D) (tstamp 5A058BCE)
-    (at 127.25 94.475)
+  (module BusSimulator:ComExpressMini10 (layer F.Cu) (tedit 5A05691D) (tstamp 5A06AE0D)
+    (at 124.9 95.925)
     (fp_text reference J1 (at 34.725998 2.65) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )

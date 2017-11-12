@@ -1,4 +1,4 @@
-update=11/9/2017 12:25:49 AM
+update=11/11/2017 10:45:00 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -66,3 +66,14 @@ LibName34=symbols
 LibName35=OSTTA024163
 LibName36=exports/MCP6H04-E
 LibName37=freetronics_schematic
+LibName38=CS30CL
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

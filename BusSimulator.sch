@@ -3143,6 +3143,24 @@ Text GLabel 3500 15250 0    60   Input ~ 0
 DUE_SCL
 Text GLabel 3500 15150 0    60   Input ~ 0
 DUE_SDA
+<<<<<<< HEAD
 Text GLabel 6350 2050 0    60   Input ~ 0
 VoutD
+=======
+$Comp
+L GNDREF #PWR?
+U 1 1 5A0942AF
+P 4650 4000
+F 0 "#PWR?" H 4650 3750 50  0001 C CNN
+F 1 "GNDREF" H 4650 3850 50  0000 C CNN
+F 2 "" H 4650 4000 50  0001 C CNN
+F 3 "" H 4650 4000 50  0001 C CNN
+	1    4650 4000
+	1    0    0    -1  
+$EndComp
+Text GLabel 4750 4000 2    51   Input ~ 0
+mCOM_GND
+Wire Wire Line
+	4650 4000 4750 4000
+>>>>>>> e364ddced79d54638799b7cd307864c477069095
 $EndSCHEMATC

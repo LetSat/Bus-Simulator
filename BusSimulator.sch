@@ -486,9 +486,9 @@ mCOM_GND
 Text GLabel 14400 10250 0    51   Input ~ 0
 GPO0
 Text GLabel 14400 10750 0    51   Input ~ 0
-SER0_TX
+mCOM_TX
 Text GLabel 14400 10850 0    51   Input ~ 0
-SER0_RX
+mCOM_RX
 Text GLabel 14400 10950 0    51   Input ~ 0
 mCOM_GND
 Text GLabel 14400 11350 0    51   Input ~ 0
@@ -1044,11 +1044,11 @@ Text GLabel 1450 12850 0    60   Input ~ 0
 ISOPWRBTNn
 Text GLabel 3850 11350 2    51   Input ~ 0
 GPI0
-Text GLabel 3850 11650 2    51   Input ~ 0
+Text GLabel 3850 11450 2    51   Input ~ 0
 GPI1
 Text GLabel 3850 11550 2    51   Input ~ 0
 GPI2
-Text GLabel 3850 11450 2    51   Input ~ 0
+Text GLabel 3850 11650 2    51   Input ~ 0
 GPI3
 Text GLabel 1450 10250 0    51   Input ~ 0
 GPO1
@@ -1132,7 +1132,7 @@ F 3 "" H 1450 11950 50  0001 C CNN
 	1    1450 11950
 	1    0    0    -1  
 $EndComp
-Text GLabel 3850 11850 2    60   Input ~ 0
+Text GLabel 1450 11850 0    60   Input ~ 0
 LOAD_1
 Text GLabel 1450 13250 0    60   Input ~ 0
 LOAD_2
@@ -1179,7 +1179,7 @@ Text GLabel 3850 10350 2    60   Input ~ 0
 ISO_GPO2
 Text GLabel 3850 10450 2    60   Input ~ 0
 ISO_GPO3
-Text GLabel 1450 11850 0    60   Input ~ 0
+Text GLabel 3850 11850 2    60   Input ~ 0
 ISO_LOAD_1
 Text GLabel 3850 13250 2    60   Input ~ 0
 ISO_LOAD_2
@@ -1747,13 +1747,9 @@ F 3 "" H 8450 14250 50  0001 C CNN
 	1    8450 14250
 	1    0    0    -1  
 $EndComp
-Text GLabel 3850 11750 2    51   Input ~ 0
-SER0_RX
-Text GLabel 1450 11750 0    60   Input ~ 0
-ISOSERO_Rx
-Text GLabel 1450 10050 0    51   Input ~ 0
-SER0_TX
 Text GLabel 3850 10050 2    60   Input ~ 0
+ISOSERO_Rx
+Text GLabel 1450 11750 0    60   Input ~ 0
 ISOSERO_Tx
 Text GLabel 16400 5800 0    60   Input ~ 0
 ISOWAKE1n
@@ -3145,4 +3141,18 @@ Text GLabel 3500 15150 0    60   Input ~ 0
 DUE_SDA
 Text GLabel 6350 2050 0    60   Input ~ 0
 VoutD
+Text Notes 4050 9650 0    60   ~ 0
+Due
+Text Notes 4000 11050 0    60   ~ 0
+mCOM/Misc
+Text Notes 1500 11050 0    60   ~ 0
+Due
+Text Notes 1550 12500 0    60   ~ 0
+Due
+Text Notes 4000 12600 0    60   ~ 0
+mCOM/Misc
+Text GLabel 1450 10050 0    51   Input ~ 0
+mCOM_TX
+Text GLabel 3850 11750 2    51   Input ~ 0
+mCOM_RX
 $EndSCHEMATC

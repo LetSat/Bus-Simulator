@@ -1,4 +1,4 @@
-(module ComExpressMini10 (layer F.Cu) (tedit 5A0A8249)
+(module ComExpressMini10 (layer F.Cu) (tedit 5A0B6140)
   (fp_text reference J1 (at 34.725998 2.65) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -240,4 +240,6 @@
   (pad 221 thru_hole circle (at 63.580398 2.65) (size 1.7526 1.7526) (drill 1.7526) (layers *.Cu F.SilkS))
   (pad 222 thru_hole circle (at 5.871598 2.65) (size 1.7526 1.7526) (drill 1.7526) (layers *.Cu F.SilkS))
   (pad 222 thru_hole circle (at 5.871598 2.65) (size 1.7526 1.7526) (drill 1.7526) (layers *.Cu F.SilkS))
+  (pad TAB1 smd rect (at 3.81 2.667) (size 3 6) (layers F.Cu F.Paste F.Mask))
+  (pad TAB2 smd rect (at 65.659 2.667) (size 3 6) (layers F.Cu F.Paste F.Mask))
 )

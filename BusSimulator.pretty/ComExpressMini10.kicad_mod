@@ -1,4 +1,4 @@
-(module ComExpressMini10 (layer F.Cu) (tedit 5A05691D)
+(module ComExpressMini10 (layer F.Cu) (tedit 5A0A8249)
   (fp_text reference J1 (at 34.725998 2.65) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -136,11 +136,6 @@
   (pad 113 smd rect (at 8.475997 0) (size 0.3302 1.1938) (layers F.Cu F.Paste F.Mask))
   (pad 114 smd rect (at 8.975996 0) (size 0.3302 1.1938) (layers F.Cu F.Paste F.Mask))
   (pad 115 smd rect (at 9.475995 0) (size 0.3302 1.1938) (layers F.Cu F.Paste F.Mask))
-  (pad 116 smd rect (at 9.975997 0) (size 0.3302 1.1938) (layers F.Cu F.Paste F.Mask))
-  (pad 117 smd rect (at 10.475996 0) (size 0.3302 1.1938) (layers F.Cu F.Paste F.Mask))
-  (pad 118 smd rect (at 10.975997 0) (size 0.3302 1.1938) (layers F.Cu F.Paste F.Mask))
-  (pad 119 smd rect (at 11.475996 0) (size 0.3302 1.1938) (layers F.Cu F.Paste F.Mask))
-  (pad 120 smd rect (at 11.975995 0) (size 0.3302 1.1938) (layers F.Cu F.Paste F.Mask))
   (pad 121 smd rect (at 12.475997 0) (size 0.3302 1.1938) (layers F.Cu F.Paste F.Mask))
   (pad 122 smd rect (at 12.975996 0) (size 0.3302 1.1938) (layers F.Cu F.Paste F.Mask))
   (pad 123 smd rect (at 13.475998 0) (size 0.3302 1.1938) (layers F.Cu F.Paste F.Mask))

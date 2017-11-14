@@ -1753,13 +1753,13 @@ Text GLabel 16400 4400 0    60   Input ~ 0
 ISOPWRBTNn
 Text GLabel 16400 5800 0    60   Input ~ 0
 ISO_SLEEPn
-Text GLabel 16400 3400 0    60   Input ~ 0
+Text GLabel 16400 3200 0    60   Input ~ 0
 ISO_GPI0
-Text GLabel 16400 3500 0    60   Input ~ 0
+Text GLabel 16400 3000 0    60   Input ~ 0
 ISO_GPI1
-Text GLabel 16400 3600 0    60   Input ~ 0
+Text GLabel 16400 3100 0    60   Input ~ 0
 ISO_GPI2
-Text GLabel 16400 3700 0    60   Input ~ 0
+Text GLabel 16400 3300 0    60   Input ~ 0
 ISO_GPI3
 Text GLabel 16400 4900 0    60   Input ~ 0
 ISO_LOAD_1
@@ -1769,13 +1769,13 @@ Text GLabel 16400 4700 0    60   Input ~ 0
 ISOSERO_Tx
 Text GLabel 16400 5500 0    60   Input ~ 0
 ISOPWR_OK
-Text GLabel 16400 3000 0    60   Input ~ 0
+Text GLabel 16400 3600 0    60   Input ~ 0
 ISO_GPO0
-Text GLabel 16400 3100 0    60   Input ~ 0
+Text GLabel 16400 3400 0    60   Input ~ 0
 ISO_GPO1
-Text GLabel 16400 3200 0    60   Input ~ 0
+Text GLabel 16400 3500 0    60   Input ~ 0
 ISO_GPO2
-Text GLabel 16400 3300 0    60   Input ~ 0
+Text GLabel 16400 3700 0    60   Input ~ 0
 ISO_GPO3
 Text GLabel 16400 4800 0    60   Input ~ 0
 ISO_LOAD_2
@@ -2058,17 +2058,6 @@ F 3 "" H 19300 10250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CAPH C13
-U 1 1 5A0C9F62
-P 4700 9850
-F 0 "C13" H 4850 10000 60  0000 C CNN
-F 1 ".1uF" H 4850 9550 60  0000 C CNN
-F 2 "Capacitors_SMD:C_0603" H 4850 9490 60  0001 C CNN
-F 3 "" H 4700 9850 60  0000 C CNN
-	1    4700 9850
-	0    1    1    0   
-$EndComp
-$Comp
 L CAPH C7
 U 1 1 5A0CA9FF
 P 950 9850
@@ -2091,17 +2080,6 @@ F 3 "" H 950 10150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR070
-U 1 1 5A0CB896
-P 4700 10150
-F 0 "#PWR070" H 4700 9900 50  0001 C CNN
-F 1 "GND" H 4700 10000 50  0000 C CNN
-F 2 "" H 4700 10150 50  0001 C CNN
-F 3 "" H 4700 10150 50  0001 C CNN
-	1    4700 10150
-	1    0    0    -1  
-$EndComp
-$Comp
 L GND #PWR071
 U 1 1 5A0CBCD4
 P 950 12450
@@ -2113,17 +2091,6 @@ F 3 "" H 950 12450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDREF #PWR072
-U 1 1 5A0CBE30
-P 4700 13350
-F 0 "#PWR072" H 4700 13100 50  0001 C CNN
-F 1 "GNDREF" H 4700 13200 50  0000 C CNN
-F 2 "" H 4700 13350 50  0001 C CNN
-F 3 "" H 4700 13350 50  0001 C CNN
-	1    4700 13350
-	1    0    0    -1  
-$EndComp
-$Comp
 L CAPH C9
 U 1 1 5A0CBEE8
 P 1250 12450
@@ -2132,17 +2099,6 @@ F 1 ".1uF" H 1400 12350 60  0000 C CNN
 F 2 "Capacitors_SMD:C_0603" H 1400 12090 60  0001 C CNN
 F 3 "" H 1250 12450 60  0000 C CNN
 	1    1250 12450
-	0    1    1    0   
-$EndComp
-$Comp
-L CAPH C14
-U 1 1 5A0CC466
-P 4700 12800
-F 0 "C14" H 4850 12950 60  0000 C CNN
-F 1 ".1uF" H 4850 12500 60  0000 C CNN
-F 2 "Capacitors_SMD:C_0603" H 4850 12440 60  0001 C CNN
-F 3 "" H 4700 12800 60  0000 C CNN
-	1    4700 12800
 	0    1    1    0   
 $EndComp
 $Comp
@@ -2875,16 +2831,10 @@ Wire Wire Line
 	3850 12750 4800 12750
 Wire Wire Line
 	800  12750 1450 12750
-Connection ~ 4700 9850
 Connection ~ 950  9850
 Connection ~ 1250 12750
 Wire Wire Line
 	950  12450 1250 12450
-Wire Wire Line
-	4700 12800 4700 12750
-Connection ~ 4700 12750
-Wire Wire Line
-	4700 13100 4700 13350
 Wire Wire Line
 	1850 14400 1300 14400
 Wire Wire Line

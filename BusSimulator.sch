@@ -1745,41 +1745,41 @@ Text GLabel 3850 10450 2    60   Input ~ 0
 ISOSERO_Rx
 Text GLabel 1450 11450 0    60   Input ~ 0
 ISOSERO_Tx
-Text GLabel 16400 5800 0    60   Input ~ 0
-ISOWAKE1n
-Text GLabel 16400 6100 0    60   Input ~ 0
-ISOSYS_RESETn
-Text GLabel 16400 6000 0    60   Input ~ 0
-ISOPWRBTNn
-Text GLabel 16400 5700 0    60   Input ~ 0
-ISO_SLEEPn
-Text GLabel 16400 6500 0    60   Input ~ 0
-ISO_GPI0
-Text GLabel 16400 6400 0    60   Input ~ 0
-ISO_GPI1
-Text GLabel 16400 6300 0    60   Input ~ 0
-ISO_GPI2
-Text GLabel 16400 6200 0    60   Input ~ 0
-ISO_GPI3
 Text GLabel 16400 5600 0    60   Input ~ 0
-ISO_LOAD_1
-Text GLabel 16400 5200 0    60   Input ~ 0
-ISOSERO_Rx
-Text GLabel 16400 5100 0    60   Input ~ 0
-ISOSERO_Tx
+ISOWAKE1n
 Text GLabel 16400 5300 0    60   Input ~ 0
-ISOPWR_OK
-Text GLabel 16400 3700 0    60   Input ~ 0
-ISO_GPO0
-Text GLabel 16400 3600 0    60   Input ~ 0
-ISO_GPO1
-Text GLabel 16400 3500 0    60   Input ~ 0
-ISO_GPO2
+ISOSYS_RESETn
+Text GLabel 16400 4400 0    60   Input ~ 0
+ISOPWRBTNn
+Text GLabel 16400 5800 0    60   Input ~ 0
+ISO_SLEEPn
 Text GLabel 16400 3400 0    60   Input ~ 0
-ISO_GPO3
+ISO_GPI0
+Text GLabel 16400 3500 0    60   Input ~ 0
+ISO_GPI1
+Text GLabel 16400 3600 0    60   Input ~ 0
+ISO_GPI2
+Text GLabel 16400 3700 0    60   Input ~ 0
+ISO_GPI3
+Text GLabel 16400 4900 0    60   Input ~ 0
+ISO_LOAD_1
+Text GLabel 16400 4600 0    60   Input ~ 0
+ISOSERO_Rx
+Text GLabel 16400 4700 0    60   Input ~ 0
+ISOSERO_Tx
 Text GLabel 16400 5500 0    60   Input ~ 0
+ISOPWR_OK
+Text GLabel 16400 3000 0    60   Input ~ 0
+ISO_GPO0
+Text GLabel 16400 3100 0    60   Input ~ 0
+ISO_GPO1
+Text GLabel 16400 3200 0    60   Input ~ 0
+ISO_GPO2
+Text GLabel 16400 3300 0    60   Input ~ 0
+ISO_GPO3
+Text GLabel 16400 4800 0    60   Input ~ 0
 ISO_LOAD_2
-Text GLabel 16400 5400 0    60   Input ~ 0
+Text GLabel 16400 4500 0    60   Input ~ 0
 ISO_LOAD_3
 Text Notes 9400 3650 0    118  ~ 0
 Thermistor\n

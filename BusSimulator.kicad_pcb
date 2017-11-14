@@ -14,8 +14,8 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal hide)
-    (31 B.Cu signal hide)
+    (0 F.Cu signal)
+    (31 B.Cu signal)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -5023,7 +5023,7 @@
     )
   )
 
-  (gr_text "Prabodh Jhaveri\nChandler Griscom\nLetSat Bus Simulator\n14Nov2017 3:43 AM\nTotal Hours Spent: 0xFFFF" (at 182.245 134.874) (layer F.SilkS)
+  (gr_text "Prabodh Jhaveri\nChandler Griscom\nLetSat Bus Simulator\n14Nov2017 3:43 AM\nTotal Hours Spent: 0xFFFF" (at 181.864 140.462) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
   )
   (gr_text "3V3 Load" (at 174.4345 126.238) (layer F.SilkS) (tstamp 5A0AB755)

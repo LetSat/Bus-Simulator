@@ -992,19 +992,19 @@ L Si8660_SOIC-16 U6
 U 1 1 5A06E979
 P 1450 9850
 F 0 "U6" H 2650 10250 60  0000 C CNN
-F 1 "Si8660_SOIC-16" H 2650 10150 60  0000 C CNN
+F 1 "ISOInputs_Si8660_SOIC-16" H 2650 10150 60  0000 C CNN
 F 2 "BusSimulator:SI8660BA-B-IS1" H 2650 10090 60  0001 C CNN
 F 3 "" H 1450 9850 60  0000 C CNN
 	1    1450 9850
 	1    0    0    -1  
 $EndComp
-Text GLabel 3850 13150 2    51   Input ~ 0
+Text GLabel 3850 11850 2    51   Input ~ 0
 WAKE1n
 Text GLabel 1450 9950 0    51   Input ~ 0
 PWR_OK
-Text GLabel 3850 12950 2    51   Input ~ 0
-SYS_RESETn
 Text GLabel 3850 12850 2    51   Input ~ 0
+SYS_RESETn
+Text GLabel 3850 13350 2    51   Input ~ 0
 PWRBTNn
 Text GLabel 850  9850 0    60   Input ~ 0
 +3.3V
@@ -1034,36 +1034,36 @@ F 3 "" H 3850 10550 50  0001 C CNN
 	1    3850 10550
 	1    0    0    -1  
 $EndComp
-Text GLabel 1450 13150 0    60   Input ~ 0
+Text GLabel 1450 11850 0    60   Input ~ 0
 ISOWAKE1n
 Text GLabel 3850 9950 2    60   Input ~ 0
 ISOPWR_OK
-Text GLabel 1450 12950 0    60   Input ~ 0
-ISOSYS_RESETn
 Text GLabel 1450 12850 0    60   Input ~ 0
+ISOSYS_RESETn
+Text GLabel 1450 13350 0    60   Input ~ 0
 ISOPWRBTNn
-Text GLabel 3850 11350 2    51   Input ~ 0
+Text GLabel 3850 12950 2    51   Input ~ 0
 GPI0
-Text GLabel 3850 11450 2    51   Input ~ 0
+Text GLabel 3850 11750 2    51   Input ~ 0
 GPI1
-Text GLabel 3850 11550 2    51   Input ~ 0
-GPI2
 Text GLabel 3850 11650 2    51   Input ~ 0
+GPI2
+Text GLabel 3850 11550 2    51   Input ~ 0
 GPI3
-Text GLabel 1450 10250 0    51   Input ~ 0
+Text GLabel 1450 10050 0    51   Input ~ 0
 GPO1
-Text GLabel 1450 10350 0    51   Input ~ 0
-GPO2
-Text GLabel 1450 10450 0    51   Input ~ 0
-GPO3
 Text GLabel 1450 10150 0    51   Input ~ 0
+GPO2
+Text GLabel 1450 10250 0    51   Input ~ 0
+GPO3
+Text GLabel 1450 10350 0    51   Input ~ 0
 GPO0
 $Comp
 L Si8660_SOIC-16 U7
 U 1 1 5A079E7E
 P 1450 11250
 F 0 "U7" H 2650 11650 60  0000 C CNN
-F 1 "Si8660_SOIC-16" H 2650 11550 60  0000 C CNN
+F 1 "ISOOutputs_Si8660_SOIC-16" H 2650 11550 60  0000 C CNN
 F 2 "BusSimulator:SI8660BA-B-IS1" H 2650 11490 60  0001 C CNN
 F 3 "" H 1450 11250 60  0000 C CNN
 	1    1450 11250
@@ -1074,7 +1074,7 @@ L Si8660_SOIC-16 U8
 U 1 1 5A07A2DD
 P 1450 12750
 F 0 "U8" H 2650 13150 60  0000 C CNN
-F 1 "Si8660_SOIC-16" H 2650 13050 60  0000 C CNN
+F 1 "ISOOutputs_Si8660_SOIC-16" H 2650 13050 60  0000 C CNN
 F 2 "BusSimulator:SI8660BA-B-IS1" H 2650 12990 60  0001 C CNN
 F 3 "" H 1450 12750 60  0000 C CNN
 	1    1450 12750
@@ -1132,15 +1132,15 @@ F 3 "" H 1450 11950 50  0001 C CNN
 	1    1450 11950
 	1    0    0    -1  
 $EndComp
-Text GLabel 3850 11850 2    60   Input ~ 0
+Text GLabel 3850 13050 2    60   Input ~ 0
 LOAD_1
-Text GLabel 3850 13250 2    60   Input ~ 0
+Text GLabel 3850 13150 2    60   Input ~ 0
 LOAD_2
-Text GLabel 3850 13350 2    60   Input ~ 0
+Text GLabel 3850 13250 2    60   Input ~ 0
 LOAD_3
-Text GLabel 3850 13050 2    51   Input ~ 0
+Text GLabel 3850 11350 2    51   Input ~ 0
 SLEEPn
-Text GLabel 1450 13050 0    60   Input ~ 0
+Text GLabel 1450 11350 0    60   Input ~ 0
 ISO_SLEEPn
 $Comp
 L LED D6
@@ -1163,27 +1163,27 @@ Text GLabel 16400 6800 0    60   Input ~ 0
 DUE_SDA
 Text GLabel 16400 6900 0    60   Input ~ 0
 DUE_SCL
-Text GLabel 1450 11350 0    60   Input ~ 0
+Text GLabel 1450 12950 0    60   Input ~ 0
 ISO_GPI0
-Text GLabel 1450 11450 0    60   Input ~ 0
+Text GLabel 1450 11750 0    60   Input ~ 0
 ISO_GPI1
-Text GLabel 1450 11550 0    60   Input ~ 0
-ISO_GPI2
 Text GLabel 1450 11650 0    60   Input ~ 0
+ISO_GPI2
+Text GLabel 1450 11550 0    60   Input ~ 0
 ISO_GPI3
-Text GLabel 3850 10150 2    60   Input ~ 0
-ISO_GPO0
-Text GLabel 3850 10250 2    60   Input ~ 0
-ISO_GPO1
 Text GLabel 3850 10350 2    60   Input ~ 0
+ISO_GPO0
+Text GLabel 3850 10050 2    60   Input ~ 0
+ISO_GPO1
+Text GLabel 3850 10150 2    60   Input ~ 0
 ISO_GPO2
-Text GLabel 3850 10450 2    60   Input ~ 0
+Text GLabel 3850 10250 2    60   Input ~ 0
 ISO_GPO3
-Text GLabel 1450 11850 0    60   Input ~ 0
+Text GLabel 1450 13050 0    60   Input ~ 0
 ISO_LOAD_1
-Text GLabel 1450 13250 0    60   Input ~ 0
+Text GLabel 1450 13150 0    60   Input ~ 0
 ISO_LOAD_2
-Text GLabel 1450 13350 0    60   Input ~ 0
+Text GLabel 1450 13250 0    60   Input ~ 0
 ISO_LOAD_3
 Text Notes 6300 950  0    60   ~ 0
 OP-AMP\n
@@ -1741,9 +1741,9 @@ F 3 "" H 8450 14250 50  0001 C CNN
 	1    8450 14250
 	1    0    0    -1  
 $EndComp
-Text GLabel 3850 10050 2    60   Input ~ 0
+Text GLabel 3850 10450 2    60   Input ~ 0
 ISOSERO_Rx
-Text GLabel 1450 11750 0    60   Input ~ 0
+Text GLabel 1450 11450 0    60   Input ~ 0
 ISOSERO_Tx
 Text GLabel 16400 5800 0    60   Input ~ 0
 ISOWAKE1n
@@ -3145,9 +3145,9 @@ Text Notes 1550 12500 0    60   ~ 0
 Due
 Text Notes 4000 12600 0    60   ~ 0
 mCOM/Misc
-Text GLabel 1450 10050 0    51   Input ~ 0
+Text GLabel 1450 10450 0    51   Input ~ 0
 mCOM_TX
-Text GLabel 3850 11750 2    51   Input ~ 0
+Text GLabel 3850 11450 2    51   Input ~ 0
 mCOM_RX
 Text Notes 1150 9650 0    60   ~ 0
 mCOM/Misc
